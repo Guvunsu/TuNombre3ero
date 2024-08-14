@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: PromoAnimated2x_0
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 206
+        width: 94
+        height: 84
+      alignment: 9
+      pivot: {x: 1.579486, y: 0.47670186}
+      border: {x: 1, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be3cf2e850ad43649bb186f769fc6f30
+      internalID: 850928137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PromoAnimated2x_1
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 205
+        width: 94
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b2a808307136264fa1c30a0e165783f
+      internalID: 87348251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PromoAnimated2x_2
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 58
+        width: 92
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1799b3e67443abd42a2f16bdbda892c2
+      internalID: -291886965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PromoAnimated2x_3
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 59
+        width: 99
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07fdf476e280b9549a3fa7545f04b46c
+      internalID: -244570730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PromoAnimated2x_4
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 58
+        width: 112
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7923c348599e14429cb4abf863cdba2
+      internalID: -1118284431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PromoAnimated2x_5
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 207
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533752f626649f84b9776a9ab39b9f82
+      internalID: -1784663801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +245,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PromoAnimated2x_0: 850928137
+      PromoAnimated2x_1: 87348251
+      PromoAnimated2x_2: -291886965
+      PromoAnimated2x_3: -244570730
+      PromoAnimated2x_4: -1118284431
+      PromoAnimated2x_5: -1784663801
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
