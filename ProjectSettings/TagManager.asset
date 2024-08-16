@@ -52,6 +52,9 @@ TagManager:
   - name: Vegetacion
     uniqueID: 3533409927
     locked: 0
+  - name: Objetos
+    uniqueID: 2470056225
+    locked: 0
   - name: Player
     uniqueID: 4069797761
     locked: 0
