@@ -18,8 +18,7 @@ public class MovPlayer : MonoBehaviour {
 
     // fisicas (FixedUpdate)
     private Vector2 vector2D;
-    private float horizontal;
-    private float vertical;
+    private float input;
     private float dt;
 
 
@@ -32,24 +31,25 @@ public class MovPlayer : MonoBehaviour {
         movimiento();
     }
     private void FixedUpdate() { // movimiento jugador y fisica matematica
-        horizontal = Input.GetAxisRaw("Horizontal");
-        vertical = Input.GetAxisRaw("Vertical");
         dt = Time.deltaTime;
-        vector2D = new Vector2(horizontal * moveSpeed * dt, rbPlayer.velocity.x);
-        vector2D = new Vector2(vertical * moveSpeed * dt, rbPlayer.velocity.y);
+        input = Input.GetAxisRaw("Vertical");
+        vector2D = new Vector2(input * moveSpeed * dt, rbPlayer.velocity.y);
+        rbPlayer.velocity = vector2D;
+        input = Input.GetAxisRaw("Horizontal");
+        vector2D = new Vector2(input * moveSpeed * dt, rbPlayer.velocity.x);
         rbPlayer.velocity = vector2D;
     }
     private void OnCollisionEnter2D(Collision2D collision) {//contacto con el TileMap
         if (collision.collider.CompareTag("TileMap")) {
             rbPlayer.velocity = new Vector2(transform.position.x, transform.position.y); ;
         }
-        if (collision.collider.CompareTag("TileMapWater")) {
-            //disableMovement(); 
-            //segun yo me ayudara a que no se mueva mas el personaje y muera 
-            // poner funcion de muerte y colocarlo aqui 
-            //poner tal vez la funcion del menu de muerte aqui
-            // poner tal vez funcion de rolling y negarlo 
-        }
+        /* if (collision.collider.CompareTag("TileMapWater")) {
+             //disableMovement(); 
+             //segun yo me ayudara a que no se mueva mas el personaje y muera 
+             // poner funcion de muerte y colocarlo aqui 
+             //poner tal vez la funcion del menu de muerte aqui
+             // poner tal vez funcion de rolling y negarlo 
+         }*/
     }
     void movimiento() {
         // velocidad movimeinto 
