@@ -13,18 +13,18 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Ground
+  - BackGround
   - Water
   - UI
+  - TileMap
+  - Fruits
+  - Coins
+  - Key
+  - Teleport
+  - ZonaDeMuerte
   - Player
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - VirtualCamara
+  - Enemy
   - 
   - 
   - 
@@ -46,11 +46,11 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Water
-    uniqueID: 2657558667
-    locked: 0
   - name: Ground
     uniqueID: 2156287437
+    locked: 0
+  - name: Water
+    uniqueID: 2657558667
     locked: 0
   - name: Vegetacion
     uniqueID: 3533409927
@@ -58,6 +58,12 @@ TagManager:
   - name: Objetos
     uniqueID: 2470056225
     locked: 0
+  - name: Enemy
+    uniqueID: 2140444161
+    locked: 0
   - name: Player
     uniqueID: 4069797761
+    locked: 0
+  - name: UI
+    uniqueID: 2768875745
     locked: 0

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class MovPlayer : MonoBehaviour {
 
@@ -18,7 +19,8 @@ public class MovPlayer : MonoBehaviour {
 
     // fisicas (FixedUpdate)
     private Vector2 vector2D;
-    private float input;
+    private float inputX;
+    private float inputY;
     private float dt;
 
 
@@ -30,13 +32,14 @@ public class MovPlayer : MonoBehaviour {
     void Update() {
         movimiento();
     }
-    private void FixedUpdate() { // movimiento jugador y fisica matematica
-        dt = Time.deltaTime;
-        input = Input.GetAxisRaw("Vertical");
-        vector2D = new Vector2(input * moveSpeed * dt, rbPlayer.velocity.y);
+    private void FixedUpdate() { // movimiento jugador y fisica 
+        dt = Time.fixedDeltaTime;
+        //rbPlayer.MovePosition(rbPlayer.position + vector2D * moveSpeed * dt); min 15:45 https://www.youtube.com/watch?v=jgQKDpzBiu8
+        inputY = Input.GetAxisRaw("Vertical");
+        vector2D = new Vector2(inputY * moveSpeed * dt, rbPlayer.velocity.y).normalized;
         rbPlayer.velocity = vector2D;
-        input = Input.GetAxisRaw("Horizontal");
-        vector2D = new Vector2(input * moveSpeed * dt, rbPlayer.velocity.x);
+        inputX = Input.GetAxisRaw("Horizontal");
+        vector2D = new Vector2(inputX * moveSpeed * dt, rbPlayer.velocity.x).normalized;
         rbPlayer.velocity = vector2D;
     }
     private void OnCollisionEnter2D(Collision2D collision) {//contacto con el TileMap
@@ -51,9 +54,10 @@ public class MovPlayer : MonoBehaviour {
              // poner tal vez funcion de rolling y negarlo 
          }*/
     }
-    void movimiento() {
+    void movimiento() { //autoplagio TuNombre2ndo Movimiento 
+       
         // velocidad movimeinto 
-        if (Input.GetKeyDown(KeyCode.LeftShift)) {
+        if (Input.GetKey(KeyCode.LeftShift)) {
             moveSpeed = 1800f;
             //hacerlo true al correr
         } else {
@@ -64,13 +68,21 @@ public class MovPlayer : MonoBehaviour {
         // Animator Flip Sprite
         if (vector2D.x < 0) {
             transform.localScale = Vector2.one;
-            //animator.SetBool("Walk", true);
+            animator.SetFloat("Horizontal", inputX);
         }
         if (vector2D.x > 0) {
             transform.localScale = -1 * Vector2.one;
-            // walk true
+            animator.SetFloat("Horizontal", inputX);
+        }
+        if (vector2D.y < 0) {
+            transform.localScale = Vector2.one;
+            animator.SetFloat("Vertical", inputY);
+        }
+        if (vector2D.y > 0) {
+            transform.localScale = -1 * Vector2.one;
+            animator.SetFloat("Vertical", inputY);
         } else {
-            // idle true
+            animator.SetFloat("Speed", vector2D.magnitude);
         }
     }
     //  private void rolling() {
