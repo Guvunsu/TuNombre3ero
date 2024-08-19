@@ -34,7 +34,6 @@ public class MovPlayer : MonoBehaviour {
     }
     private void FixedUpdate() { // movimiento jugador y fisica 
         dt = Time.fixedDeltaTime;
-        //rbPlayer.MovePosition(rbPlayer.position + vector2D * moveSpeed * dt); min 15:45 https://www.youtube.com/watch?v=jgQKDpzBiu8
         inputY = Input.GetAxisRaw("Vertical");
         vector2D = new Vector2(inputY * moveSpeed * dt, rbPlayer.velocity.y).normalized;
         rbPlayer.velocity = vector2D;
@@ -42,27 +41,13 @@ public class MovPlayer : MonoBehaviour {
         vector2D = new Vector2(inputX * moveSpeed * dt, rbPlayer.velocity.x).normalized;
         rbPlayer.velocity = vector2D;
     }
-    private void OnCollisionEnter2D(Collision2D collision) {//contacto con el TileMap
-        if (collision.collider.CompareTag("TileMap")) {
-            rbPlayer.velocity = new Vector2(transform.position.x, transform.position.y); ;
-        }
-        /* if (collision.collider.CompareTag("TileMapWater")) {
-             //disableMovement(); 
-             //segun yo me ayudara a que no se mueva mas el personaje y muera 
-             // poner funcion de muerte y colocarlo aqui 
-             //poner tal vez la funcion del menu de muerte aqui
-             // poner tal vez funcion de rolling y negarlo 
-         }*/
-    }
-    void movimiento() { //autoplagio TuNombre2ndo Movimiento 
-       
+    
+    void movimiento() { 
         // velocidad movimeinto 
-        if (Input.GetKey(KeyCode.LeftShift)) {
+        if (Input.GetKeyDown(KeyCode.LeftShift)) {
             moveSpeed = 1800f;
-            //hacerlo true al correr
         } else {
-            moveSpeed = 900f;
-            //hacerlo false al caminar o correr
+            moveSpeed = 900f;  
         }
 
         // Animator Flip Sprite
@@ -70,18 +55,38 @@ public class MovPlayer : MonoBehaviour {
             transform.localScale = Vector2.one;
             animator.SetFloat("Horizontal", inputX);
         }
+        if (+vector2D.y + vector2D.x < 0) {
+            transform.localScale =Vector2.one;
+            animator.SetFloat("Horizontal", inputX);
+        }
         if (vector2D.x > 0) {
             transform.localScale = -1 * Vector2.one;
             animator.SetFloat("Horizontal", inputX);
         }
+        if (+vector2D.y + vector2D.x < 0) {
+            transform.localScale = -1 * Vector2.one;
+            animator.SetFloat("Horizontal", inputX);
+        }
+
+
         if (vector2D.y < 0) {
+            transform.localScale = Vector2.one;
+            animator.SetFloat("Vertical", inputY);
+        }
+        if (+vector2D.y + vector2D.x < 0) {
             transform.localScale = Vector2.one;
             animator.SetFloat("Vertical", inputY);
         }
         if (vector2D.y > 0) {
             transform.localScale = -1 * Vector2.one;
             animator.SetFloat("Vertical", inputY);
-        } else {
+        }
+        if (+vector2D.y + vector2D.x > 0) {
+            transform.localScale = -1 * Vector2.one;
+            animator.SetFloat("Vertical", inputY);
+        }
+        
+        else {
             animator.SetFloat("Speed", vector2D.magnitude);
         }
     }

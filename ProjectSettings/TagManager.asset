@@ -8,7 +8,7 @@ TagManager:
   - Objectos
   - Enemigos
   - Salida
-  - LlaveParaLaSalida
+  - Key
   layers:
   - Default
   - TransparentFX
