@@ -44,7 +44,9 @@ public class MovPlayer : MonoBehaviour {
     
     void movimiento() { 
         // velocidad movimeinto 
-        if (Input.GetKeyDown(KeyCode.LeftShift)) {
+        if (Input.GetKey(KeyCode.LeftShift)) {
+           // rbPlayer.MovePosition(transform.position.x , transform.position.y);
+            print("leftShift");
             moveSpeed = 1800f;
         } else {
             moveSpeed = 900f;  
