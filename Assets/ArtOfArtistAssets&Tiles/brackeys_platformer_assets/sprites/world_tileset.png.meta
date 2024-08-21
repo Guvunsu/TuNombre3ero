@@ -20,12 +20,11 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMipmapLimit: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -64,7 +63,6 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
-  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -77,7 +75,6 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -90,7 +87,6 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -103,7 +99,18 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -3186,154 +3193,155 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      world_tileset_0: -1278640045
-      world_tileset_1: 1943402268
-      world_tileset_10: 648263797
-      world_tileset_100: 487518020
-      world_tileset_101: 2097744776
-      world_tileset_102: -1581425853
-      world_tileset_103: -813725623
-      world_tileset_104: -447088779
-      world_tileset_105: 1072044640
-      world_tileset_106: 444027886
-      world_tileset_107: 1974562400
-      world_tileset_108: -652836963
-      world_tileset_109: -1610003643
-      world_tileset_11: -684583824
-      world_tileset_110: 1238277166
-      world_tileset_111: -1096794163
-      world_tileset_112: -817554048
-      world_tileset_113: -1589969755
-      world_tileset_114: -984863522
-      world_tileset_115: -742551207
-      world_tileset_116: -2057539073
-      world_tileset_117: 769443170
-      world_tileset_118: -1363739306
-      world_tileset_119: -1297280420
-      world_tileset_12: -102359595
-      world_tileset_120: -705052560
-      world_tileset_121: 1126062248
-      world_tileset_122: -1201446123
-      world_tileset_123: -1155567808
-      world_tileset_124: 2064290418
-      world_tileset_125: -2145051770
-      world_tileset_126: -1151864411
-      world_tileset_127: -1271510769
-      world_tileset_128: 2019672348
-      world_tileset_129: -43216058
-      world_tileset_13: 937235431
-      world_tileset_130: 1252686101
-      world_tileset_131: 1006956008
-      world_tileset_132: -1111085526
-      world_tileset_133: 303809699
-      world_tileset_134: -1187257164
-      world_tileset_135: 1685215044
-      world_tileset_136: -1197328543
-      world_tileset_137: -555313198
-      world_tileset_138: -460108604
-      world_tileset_139: -752450564
-      world_tileset_14: -1412928324
-      world_tileset_140: -387872843
-      world_tileset_141: 744251974
-      world_tileset_142: 2072698041
-      world_tileset_143: 1629666343
-      world_tileset_144: -48415751
-      world_tileset_145: 347317363
-      world_tileset_15: -969833655
-      world_tileset_16: -563682653
-      world_tileset_17: -1866672018
-      world_tileset_18: 1175535413
-      world_tileset_19: -560144846
-      world_tileset_2: -1116334876
-      world_tileset_20: -614888491
-      world_tileset_21: 1987969037
-      world_tileset_22: -26536263
-      world_tileset_23: 1919292689
-      world_tileset_24: -739260496
-      world_tileset_25: -1256292994
-      world_tileset_26: -1140371923
-      world_tileset_27: -501917634
-      world_tileset_28: 1276431393
       world_tileset_29: 472929877
-      world_tileset_3: 1821264610
-      world_tileset_30: -999770659
-      world_tileset_31: 1647476924
-      world_tileset_32: -1373765814
-      world_tileset_33: -212975601
-      world_tileset_34: 569966116
-      world_tileset_35: 2001465836
-      world_tileset_36: -357997679
-      world_tileset_37: 1885586892
-      world_tileset_38: 40329729
-      world_tileset_39: 1606855255
-      world_tileset_4: -560235228
-      world_tileset_40: 342131831
-      world_tileset_41: 836552978
-      world_tileset_42: -85607535
-      world_tileset_43: -153797484
-      world_tileset_44: -1437726470
-      world_tileset_45: -1394273621
-      world_tileset_46: 1618686397
-      world_tileset_47: 1345371933
-      world_tileset_48: 669962646
-      world_tileset_49: 1654044482
-      world_tileset_5: 831198414
-      world_tileset_50: 333286949
-      world_tileset_51: 1790516313
-      world_tileset_52: 1722291211
-      world_tileset_53: -522246331
-      world_tileset_54: -1005788045
-      world_tileset_55: 1984795889
-      world_tileset_56: -1359800464
-      world_tileset_57: 1877567918
-      world_tileset_58: -1444101212
-      world_tileset_59: 1810044493
-      world_tileset_6: -1423471499
-      world_tileset_60: -1051728811
-      world_tileset_61: -1165860367
-      world_tileset_62: -1540981686
-      world_tileset_63: -1534843978
-      world_tileset_64: 1127860116
-      world_tileset_65: 1897721961
-      world_tileset_66: -392240921
-      world_tileset_67: 677800184
-      world_tileset_68: 686230882
-      world_tileset_69: -643273105
-      world_tileset_7: -608616263
-      world_tileset_70: 636776036
-      world_tileset_71: -2026139124
-      world_tileset_72: -1628773685
-      world_tileset_73: 2001670173
-      world_tileset_74: 908996807
-      world_tileset_75: 637327405
-      world_tileset_76: -1168700484
-      world_tileset_77: 1935083520
-      world_tileset_78: 384131735
-      world_tileset_79: -1678280518
-      world_tileset_8: 963775754
       world_tileset_80: -1289230365
-      world_tileset_81: -857110139
-      world_tileset_82: 1791754788
-      world_tileset_83: -183824166
-      world_tileset_84: -1478869545
-      world_tileset_85: 1917937690
-      world_tileset_86: 60844553
-      world_tileset_87: -95814646
-      world_tileset_88: -220611439
-      world_tileset_89: -1492127311
-      world_tileset_9: 1954442962
-      world_tileset_90: 1457937241
-      world_tileset_91: -78159674
-      world_tileset_92: -1736873654
-      world_tileset_93: -1929123224
-      world_tileset_94: 115027483
-      world_tileset_95: -1614676513
+      world_tileset_71: -2026139124
       world_tileset_96: -1689255618
-      world_tileset_97: -1619871088
-      world_tileset_98: -350707813
+      world_tileset_103: -813725623
+      world_tileset_89: -1492127311
+      world_tileset_133: 303809699
+      world_tileset_0: -1278640045
+      world_tileset_108: -652836963
+      world_tileset_24: -739260496
+      world_tileset_16: -563682653
+      world_tileset_127: -1271510769
+      world_tileset_31: 1647476924
+      world_tileset_76: -1168700484
+      world_tileset_45: -1394273621
+      world_tileset_32: -1373765814
+      world_tileset_107: 1974562400
+      world_tileset_124: 2064290418
+      world_tileset_23: 1919292689
+      world_tileset_120: -705052560
+      world_tileset_110: 1238277166
+      world_tileset_94: 115027483
+      world_tileset_123: -1155567808
+      world_tileset_62: -1540981686
+      world_tileset_47: 1345371933
+      world_tileset_79: -1678280518
+      world_tileset_43: -153797484
+      world_tileset_1: 1943402268
+      world_tileset_106: 444027886
+      world_tileset_52: 1722291211
+      world_tileset_135: 1685215044
+      world_tileset_26: -1140371923
+      world_tileset_119: -1297280420
+      world_tileset_144: -48415751
+      world_tileset_54: -1005788045
+      world_tileset_35: 2001465836
+      world_tileset_39: 1606855255
+      world_tileset_22: -26536263
+      world_tileset_37: 1885586892
+      world_tileset_61: -1165860367
+      world_tileset_40: 342131831
+      world_tileset_145: 347317363
+      world_tileset_38: 40329729
+      world_tileset_59: 1810044493
+      world_tileset_87: -95814646
+      world_tileset_137: -555313198
+      world_tileset_102: -1581425853
+      world_tileset_116: -2057539073
+      world_tileset_13: 937235431
+      world_tileset_34: 569966116
+      world_tileset_69: -643273105
+      world_tileset_17: -1866672018
+      world_tileset_138: -460108604
+      world_tileset_15: -969833655
+      world_tileset_77: 1935083520
+      world_tileset_129: -43216058
+      world_tileset_113: -1589969755
+      world_tileset_88: -220611439
+      world_tileset_28: 1276431393
+      world_tileset_19: -560144846
+      world_tileset_134: -1187257164
+      world_tileset_68: 686230882
+      world_tileset_75: 637327405
+      world_tileset_100: 487518020
+      world_tileset_130: 1252686101
+      world_tileset_140: -387872843
+      world_tileset_49: 1654044482
+      world_tileset_10: 648263797
+      world_tileset_55: 1984795889
+      world_tileset_126: -1151864411
+      world_tileset_143: 1629666343
+      world_tileset_65: 1897721961
+      world_tileset_141: 744251974
+      world_tileset_128: 2019672348
+      world_tileset_30: -999770659
+      world_tileset_95: -1614676513
+      world_tileset_142: 2072698041
+      world_tileset_64: 1127860116
+      world_tileset_109: -1610003643
+      world_tileset_117: 769443170
+      world_tileset_111: -1096794163
+      world_tileset_67: 677800184
+      world_tileset_125: -2145051770
+      world_tileset_118: -1363739306
+      world_tileset_46: 1618686397
+      world_tileset_72: -1628773685
       world_tileset_99: -396163825
-  mipmapLimitGroupName: 
+      world_tileset_90: 1457937241
+      world_tileset_93: -1929123224
+      world_tileset_41: 836552978
+      world_tileset_136: -1197328543
+      world_tileset_115: -742551207
+      world_tileset_25: -1256292994
+      world_tileset_78: 384131735
+      world_tileset_9: 1954442962
+      world_tileset_58: -1444101212
+      world_tileset_91: -78159674
+      world_tileset_86: 60844553
+      world_tileset_122: -1201446123
+      world_tileset_112: -817554048
+      world_tileset_70: 636776036
+      world_tileset_51: 1790516313
+      world_tileset_8: 963775754
+      world_tileset_85: 1917937690
+      world_tileset_57: 1877567918
+      world_tileset_27: -501917634
+      world_tileset_36: -357997679
+      world_tileset_33: -212975601
+      world_tileset_53: -522246331
+      world_tileset_139: -752450564
+      world_tileset_50: 333286949
+      world_tileset_132: -1111085526
+      world_tileset_60: -1051728811
+      world_tileset_63: -1534843978
+      world_tileset_56: -1359800464
+      world_tileset_6: -1423471499
+      world_tileset_92: -1736873654
+      world_tileset_74: 908996807
+      world_tileset_101: 2097744776
+      world_tileset_97: -1619871088
+      world_tileset_11: -684583824
+      world_tileset_5: 831198414
+      world_tileset_14: -1412928324
+      world_tileset_2: -1116334876
+      world_tileset_48: 669962646
+      world_tileset_84: -1478869545
+      world_tileset_12: -102359595
+      world_tileset_114: -984863522
+      world_tileset_81: -857110139
+      world_tileset_83: -183824166
+      world_tileset_44: -1437726470
+      world_tileset_7: -608616263
+      world_tileset_98: -350707813
+      world_tileset_104: -447088779
+      world_tileset_82: 1791754788
+      world_tileset_21: 1987969037
+      world_tileset_18: 1175535413
+      world_tileset_20: -614888491
+      world_tileset_4: -560235228
+      world_tileset_105: 1072044640
+      world_tileset_66: -392240921
+      world_tileset_131: 1006956008
+      world_tileset_3: 1821264610
+      world_tileset_42: -85607535
+      world_tileset_73: 2001670173
+      world_tileset_121: 1126062248
+  spritePackingTag: 
   pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -20,12 +20,11 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMipmapLimit: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -64,7 +63,6 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
-  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -77,7 +75,6 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -90,7 +87,6 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -103,7 +99,18 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1191,59 +1198,60 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      knight_0: 1888080684
-      knight_1: -357431864
-      knight_10: -929492619
-      knight_11: -1298166135
-      knight_12: -1276068132
-      knight_13: -1517962748
-      knight_14: 896185744
-      knight_15: 1661773590
-      knight_16: -1439186011
-      knight_17: -1155022800
-      knight_18: 1791888113
-      knight_19: -186816705
-      knight_2: -399539143
-      knight_20: -729031657
-      knight_21: -638839260
-      knight_22: 1702421946
-      knight_23: 1346115447
-      knight_24: -466878932
-      knight_25: -1562925160
-      knight_26: -2121733315
       knight_27: 24437507
-      knight_28: 1550689761
-      knight_29: -1690062578
-      knight_3: -148829056
       knight_30: 1225550255
-      knight_31: 966232313
-      knight_32: 1120095667
-      knight_33: -230570392
       knight_34: -1917734757
-      knight_35: 418467908
-      knight_36: 705724238
-      knight_37: 814016318
-      knight_38: 1903367292
-      knight_39: 2071322882
-      knight_4: 606685185
+      knight_16: -1439186011
       knight_40: -1814384367
-      knight_41: -1793719656
-      knight_42: -1056654722
-      knight_43: -1363501227
-      knight_44: -1364810061
-      knight_45: 1078979761
-      knight_46: -775697789
-      knight_47: 1335442666
+      knight_0: 1888080684
+      knight_14: 896185744
+      knight_25: -1562925160
       knight_48: 1439479059
-      knight_49: -1135754084
-      knight_5: -2057320297
-      knight_50: -418047695
-      knight_6: -1124961124
+      knight_20: -729031657
+      knight_3: -148829056
+      knight_32: 1120095667
       knight_7: 896824878
+      knight_2: -399539143
+      knight_29: -1690062578
+      knight_17: -1155022800
+      knight_39: 2071322882
+      knight_21: -638839260
+      knight_5: -2057320297
+      knight_38: 1903367292
+      knight_47: 1335442666
+      knight_15: 1661773590
+      knight_36: 705724238
       knight_8: -1834337596
+      knight_46: -775697789
+      knight_23: 1346115447
+      knight_13: -1517962748
+      knight_41: -1793719656
+      knight_26: -2121733315
+      knight_24: -466878932
+      knight_1: -357431864
+      knight_6: -1124961124
+      knight_19: -186816705
+      knight_22: 1702421946
+      knight_44: -1364810061
+      knight_43: -1363501227
+      knight_11: -1298166135
+      knight_4: 606685185
+      knight_12: -1276068132
+      knight_37: 814016318
+      knight_42: -1056654722
+      knight_18: 1791888113
+      knight_33: -230570392
+      knight_45: 1078979761
+      knight_50: -418047695
+      knight_35: 418467908
+      knight_10: -929492619
+      knight_31: 966232313
+      knight_49: -1135754084
       knight_9: 1648872525
-  mipmapLimitGroupName: 
+      knight_28: 1550689761
+  spritePackingTag: 
   pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
