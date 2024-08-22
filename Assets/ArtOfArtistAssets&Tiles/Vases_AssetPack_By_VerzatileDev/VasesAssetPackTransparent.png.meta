@@ -1,0 +1,1888 @@
+fileFormatVersion: 2
+guid: cc6e4db11b82add4f83a224846635808
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1440
+        width: 154
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd864ea2083336243af5cd754829ef36
+      internalID: 1304773248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_1
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1440
+        width: 157
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c83e36b672bc7af4cb2ccd755ebb2c68
+      internalID: 71888258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_2
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1437
+        width: 120
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3a493936d48922438c57268d4c22db4
+      internalID: -1215119405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_5
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1440
+        width: 100
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9350757d056d7ae469c7d2f2fb5b0e1e
+      internalID: -1473764796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_6
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 1440
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a559a05266365034bbefb6bc0274762b
+      internalID: -2084399117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_7
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 1440
+        width: 80
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3155f3f7b13edd045bdca5fbd9f32b58
+      internalID: 788598568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_9
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1425
+        width: 151
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c885a8e8ebbc8b489212066057d0e32
+      internalID: 1792612136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_10
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1490
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ddff8e5d4c7aa74f8a37b0d3fe4e3f2
+      internalID: -1390470412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_15
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 1440
+        width: 133
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64bc209ef4b217c48a4267e4ca05d8ac
+      internalID: 1966565005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 450
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e742a483b96da4ca7531d8eefe4224
+      internalID: -80415349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_20
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 1114
+        width: 172
+        height: 177
+      alignment: 9
+      pivot: {x: 0.46932983, y: 0.5298052}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f87b7d82867bf547895b4e9f28fd0a3
+      internalID: -1034175297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_22
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 1275
+        width: 122
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ab79941e18e984fa5d6ef9ee92ddb6
+      internalID: 2003937846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_23
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 1275
+        width: 148
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8874d3241e8f0024d97f57d9d937cb70
+      internalID: -1486551595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_24
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1340
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0bdcbe05ce6580408f78852f07bfea0
+      internalID: 1746757625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1120
+        width: 470
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7bf714d2d6a42d43a651a6087344f1b
+      internalID: 313010467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_32
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 1114
+        width: 151
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c83246458b56c42bbc8034ad92f573
+      internalID: -489070720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_33
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1109
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f1b55939a58e8439d4bcf51f00c49c
+      internalID: 479504651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 609
+        width: 470
+        height: 501
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f07fd5c97c1709d4d8f7e8f73a18b306
+      internalID: 1230611910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_40
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 956
+        width: 131
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b1d6c300531db340b4a8984538da78a
+      internalID: 463543194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_41
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 953
+        width: 135
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e15c5f4f28df4741bbf188ee83e6de9
+      internalID: 1031373314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_47
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 792
+        width: 131
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e6a8233babee74f9a3d010da452c74
+      internalID: -869297903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_58
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 640
+        width: 135
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a39742ecf71217d49a7e9256f77983b8
+      internalID: 629101951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_59
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 760
+        width: 151
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e71a4bad23a664588e3bc68b63e208
+      internalID: 733351336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_61
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 624
+        width: 149
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2067180f7ff1f8b4eb0596da05340bca
+      internalID: 1041986843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_62
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 710
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfbd2fe6e00bafe4b9091aa52a02cf6c
+      internalID: 1521089042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_63
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 640
+        width: 174
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55de61ae7da8eea40834edeb8f8c95bf
+      internalID: -444986482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_64
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 609
+        width: 146
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8fa82845363e2e46946a790ee73b787
+      internalID: -1967764186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_66
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 631
+        width: 138
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5f76cdbc9fb044e8fce8076234292c
+      internalID: 497205596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_67
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 676
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e952068d215e44c86d7c51d2f9d683
+      internalID: 1541793535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_71
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 465
+        width: 146
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c57b74d27d1a92c469ad8bc30e3aa919
+      internalID: -1600718731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_72
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 520
+        width: 80
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd84c5b3760c94459235a1aecca8f4c
+      internalID: 907218104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_73
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1111
+        width: 148
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb7ef9891fb5684f85c25832bee09df
+      internalID: -654129958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_74
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 465
+        width: 147
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c81bf09ba0da3343a990fa8119e432b
+      internalID: -1654751835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_75
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 470
+        width: 137
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f6c127fef24bcb47ae240fcacadcf12
+      internalID: -1103702095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_78
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 480
+        width: 137
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a610ec6a4474a4fb3e8ea064a4e730
+      internalID: 1046176022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_79
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 480
+        width: 151
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 009ed4af185ff6949a134dbfa5eb15ee
+      internalID: 2122530062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_80
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 1114
+        width: 137
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e8bd24a96c11b4fafeeab4b07e606a
+      internalID: -594661999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_81
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 490
+        width: 146
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed0b829db9d107e40abd6ae6e20a6fcc
+      internalID: 1118130923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_82
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 323
+        width: 137
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e5f6b75156a06d408688d812bcff0c2
+      internalID: -413178424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_83
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 480
+        width: 137
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 039ba7a3b7a19b646aec1e19dc1f0653
+      internalID: 611963864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_84
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 490
+        width: 157
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fabdd1fd3bfc1f74f85f368d97b8332f
+      internalID: 939018602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_87
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 1296
+        width: 160
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4247a3d9f42e58f42a1a1596b364c9bf
+      internalID: 1223420514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_88
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 320
+        width: 154
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81814a42054e964e8a99d7bca47a48a
+      internalID: -1023983145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_89
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 316
+        width: 156
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35db48845fbfaf848b0f6bdf05b85d37
+      internalID: 1583359274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_90
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 320
+        width: 120
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c8e3ed704004d448dcb420b8e470bd
+      internalID: -1192793048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_91
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 1301
+        width: 148
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 3}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f45e4b0e4353454d8f200d7528604db
+      internalID: 1100044358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_92
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 320
+        width: 137
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76f2c05fc810dd24a99732b11b9fd408
+      internalID: -104530772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_94
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 958
+        width: 116
+        height: 145
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3681183}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04a18c5de59a4747a23bdd9d99b8e8a
+      internalID: 1434037071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_95
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 330
+        width: 158
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc0c98def099ef44a0d6a05ff086225
+      internalID: -1600840025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_97
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 331
+        width: 161
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e41a5e729d4c548a77f210f1c5aeea
+      internalID: -1435281206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_98
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 1304
+        width: 139
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e288f4a21bf1a3e4b95d61bd7a29fdd0
+      internalID: 150801799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_101
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 160
+        width: 154
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3169fd450aae634bbd7600ddf3e33f3
+      internalID: -1486143183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_102
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 160
+        width: 154
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50402c3dc282f044c9326ccd82d6d57d
+      internalID: -565064519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_103
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 156
+        width: 141
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e03ac546e0810ed499e823f77d545e77
+      internalID: -444335206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_104
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 160
+        width: 162
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfac7de0f2d67794ea42fffdb27750ad
+      internalID: -202457523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_105
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 958
+        width: 177
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc1a12a8db9d2d74188b4a00a4570f15
+      internalID: -2137194954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_106
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 160
+        width: 111
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd50e07815f0cef4ca20fd456a2047f3
+      internalID: -2110886953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_107
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 160
+        width: 148
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b5e20c31831c047b189d154c9243f5
+      internalID: -291648003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_110
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 782
+        width: 145
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ebb2afe8df70044387a6684364eec45
+      internalID: -1784956457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_111
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 159
+        width: 143
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad755bf68fd699b49a33cbf4f7f99c9b
+      internalID: 911685168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_114
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 212
+        width: 28
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cff580c4da41054ba1f0b1b0731e141
+      internalID: -1927920503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_115
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 779
+        width: 171
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c7668596e57bf47b43fe4510bba8b0
+      internalID: 1633730040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_116
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 208
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d207ceb7d110c8c468fee2ce9b8b4a61
+      internalID: -803801629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_117
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 950
+        width: 124
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac04f124d04f414c9d82aa25a4e0979
+      internalID: -1979740330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_118
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 170
+        width: 140
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc7d323e5e946b41ac7bc25273e83d0
+      internalID: 971819520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_120
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 149
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4885161fd3edc4d4d8fe9ddc5592498a
+      internalID: -681665331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_121
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 0
+        width: 157
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcac9233cfadef840b177857e71eb399
+      internalID: -1550124519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_122
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 132
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133f053b6e4163b42bef7b076f265962
+      internalID: 2108755199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_123
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 315
+        width: 132
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ec22ce5fc9da14d9c5284795b1a835
+      internalID: -1485883135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_124
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 0
+        width: 153
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e03639e97000048924a29d724c8b8e
+      internalID: 235067092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_125
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 156
+        width: 151
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01053a19c64c24846bbb0abe9c053f05
+      internalID: -1168507589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_126
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 0
+        width: 129
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40cc6c98d7ba2e4fa66e0c2fd465af7
+      internalID: -2096517242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_128
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 779
+        width: 126
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff941dff35a8884585cade9a8995b44
+      internalID: -351771102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_129
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 0
+        width: 137
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f65aac0249436c74abb3d7b2ce54855f
+      internalID: -97948719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_130
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 0
+        width: 137
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d16702949d48b468e05396095ea14b
+      internalID: 1289114981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_133
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 10
+        width: 141
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 690acbeaf7d642c4cbadaa864efa06ab
+      internalID: -771991687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VasesAssetPackTransparent_135
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 0
+        width: 118
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a211f826147bdfc4f8fc9a63ac36dbb8
+      internalID: 1798085282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      VasesAssetPackTransparent_134: -750516585
+      VasesAssetPackTransparent_117: -1979740330
+      VasesAssetPackTransparent_39: 1009817070
+      VasesAssetPackTransparent_85: -969758953
+      VasesAssetPackTransparent_34: -368732772
+      VasesAssetPackTransparent_73: -654129958
+      VasesAssetPackTransparent_81: 1118130923
+      VasesAssetPackTransparent_84: 939018602
+      VasesAssetPackTransparent_19: -2054542962
+      VasesAssetPackTransparent_125: -1168507589
+      VasesAssetPackTransparent_75: -1103702095
+      VasesAssetPackTransparent_95: -1600840025
+      VasesAssetPackTransparent_106: -2110886953
+      VasesAssetPackTransparent_71: -1600718731
+      VasesAssetPackTransparent_38: -1245339927
+      VasesAssetPackTransparent_56: 1334408272
+      VasesAssetPackTransparent_110: -1784956457
+      VasesAssetPackTransparent_27: -1545156963
+      VasesAssetPackTransparent_116: -803801629
+      VasesAssetPackTransparent_22: 2003937846
+      VasesAssetPackTransparent_5: -1473764796
+      VasesAssetPackTransparent_52: 854471497
+      VasesAssetPackTransparent_16: -80415349
+      VasesAssetPackTransparent_129: -97948719
+      VasesAssetPackTransparent_42: 607833442
+      VasesAssetPackTransparent_37: 1230611910
+      VasesAssetPackTransparent_121: -1550124519
+      VasesAssetPackTransparent_13: 247089606
+      VasesAssetPackTransparent_102: -565064519
+      VasesAssetPackTransparent_99: 507431247
+      VasesAssetPackTransparent_21: -1608524843
+      VasesAssetPackTransparent_98: 150801799
+      VasesAssetPackTransparent_8: 1279219324
+      VasesAssetPackTransparent_7: 788598568
+      VasesAssetPackTransparent_104: -202457523
+      VasesAssetPackTransparent_101: -1486143183
+      VasesAssetPackTransparent_54: -349172166
+      VasesAssetPackTransparent_96: -853878508
+      VasesAssetPackTransparent_115: 1633730040
+      VasesAssetPackTransparent_83: 611963864
+      VasesAssetPackTransparent_94: 1434037071
+      VasesAssetPackTransparent_119: 1586549936
+      VasesAssetPackTransparent_33: 479504651
+      VasesAssetPackTransparent_70: 1560506683
+      VasesAssetPackTransparent_67: 1541793535
+      VasesAssetPackTransparent_86: 758193247
+      VasesAssetPackTransparent_45: -1508158818
+      VasesAssetPackTransparent_59: 733351336
+      VasesAssetPackTransparent_127: 1650767555
+      VasesAssetPackTransparent_103: -444335206
+      VasesAssetPackTransparent_133: -771991687
+      VasesAssetPackTransparent_88: -1023983145
+      VasesAssetPackTransparent_48: -1792564297
+      VasesAssetPackTransparent_111: 911685168
+      VasesAssetPackTransparent_29: 313010467
+      VasesAssetPackTransparent_20: -1034175297
+      VasesAssetPackTransparent_79: 2122530062
+      VasesAssetPackTransparent_26: 594167071
+      VasesAssetPackTransparent_23: -1486551595
+      VasesAssetPackTransparent_24: 1746757625
+      VasesAssetPackTransparent_53: -1010252583
+      VasesAssetPackTransparent_100: 1008881869
+      VasesAssetPackTransparent_12: 1551067646
+      VasesAssetPackTransparent_135: 1798085282
+      VasesAssetPackTransparent_3: -1387197545
+      VasesAssetPackTransparent_93: -945102277
+      VasesAssetPackTransparent_90: -1192793048
+      VasesAssetPackTransparent_4: -1231171105
+      VasesAssetPackTransparent_61: 1041986843
+      VasesAssetPackTransparent_76: -394029252
+      VasesAssetPackTransparent_128: -351771102
+      VasesAssetPackTransparent_41: 1031373314
+      VasesAssetPackTransparent_15: 1966565005
+      VasesAssetPackTransparent_11: 915887609
+      VasesAssetPackTransparent_60: 50887866
+      VasesAssetPackTransparent_66: 497205596
+      VasesAssetPackTransparent_25: 1988612560
+      VasesAssetPackTransparent_72: 907218104
+      VasesAssetPackTransparent_43: 1327169977
+      VasesAssetPackTransparent_28: -872581663
+      VasesAssetPackTransparent_58: 629101951
+      VasesAssetPackTransparent_131: 803503087
+      VasesAssetPackTransparent_108: 1251515513
+      VasesAssetPackTransparent_82: -413178424
+      VasesAssetPackTransparent_10: -1390470412
+      VasesAssetPackTransparent_68: 1132607273
+      VasesAssetPackTransparent_78: 1046176022
+      VasesAssetPackTransparent_120: -681665331
+      VasesAssetPackTransparent_132: 712818048
+      VasesAssetPackTransparent_123: -1485883135
+      VasesAssetPackTransparent_49: 1759619843
+      VasesAssetPackTransparent_55: -904309825
+      VasesAssetPackTransparent_74: -1654751835
+      VasesAssetPackTransparent_80: -594661999
+      VasesAssetPackTransparent_47: -869297903
+      VasesAssetPackTransparent_46: -224165515
+      VasesAssetPackTransparent_87: 1223420514
+      VasesAssetPackTransparent_2: -1215119405
+      VasesAssetPackTransparent_69: 1476277912
+      VasesAssetPackTransparent_31: -1215383278
+      VasesAssetPackTransparent_105: -2137194954
+      VasesAssetPackTransparent_118: 971819520
+      VasesAssetPackTransparent_113: -154700805
+      VasesAssetPackTransparent_65: 1992822709
+      VasesAssetPackTransparent_126: -2096517242
+      VasesAssetPackTransparent_122: 2108755199
+      VasesAssetPackTransparent_130: 1289114981
+      VasesAssetPackTransparent_64: -1967764186
+      VasesAssetPackTransparent_112: 902015084
+      VasesAssetPackTransparent_6: -2084399117
+      VasesAssetPackTransparent_35: 773941362
+      VasesAssetPackTransparent_92: -104530772
+      VasesAssetPackTransparent_57: -1509337096
+      VasesAssetPackTransparent_114: -1927920503
+      VasesAssetPackTransparent_36: -261516082
+      VasesAssetPackTransparent_109: -223139413
+      VasesAssetPackTransparent_89: 1583359274
+      VasesAssetPackTransparent_63: -444986482
+      VasesAssetPackTransparent_17: 677922217
+      VasesAssetPackTransparent_51: -1182755497
+      VasesAssetPackTransparent_124: 235067092
+      VasesAssetPackTransparent_9: 1792612136
+      VasesAssetPackTransparent_30: 1050630731
+      VasesAssetPackTransparent_40: 463543194
+      VasesAssetPackTransparent_14: -1779663355
+      VasesAssetPackTransparent_32: -489070720
+      VasesAssetPackTransparent_50: 1228611459
+      VasesAssetPackTransparent_18: 1659184005
+      VasesAssetPackTransparent_97: -1435281206
+      VasesAssetPackTransparent_0: 1304773248
+      VasesAssetPackTransparent_1: 71888258
+      VasesAssetPackTransparent_44: -204762790
+      VasesAssetPackTransparent_77: 1810944692
+      VasesAssetPackTransparent_62: 1521089042
+      VasesAssetPackTransparent_91: 1100044358
+      VasesAssetPackTransparent_107: -291648003
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
