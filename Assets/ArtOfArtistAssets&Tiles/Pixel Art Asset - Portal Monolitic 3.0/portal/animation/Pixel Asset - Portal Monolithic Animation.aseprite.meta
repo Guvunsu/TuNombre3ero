@@ -1,7 +1,1966 @@
 fileFormatVersion: 2
 guid: 1b8582c30d601914f98c122ac3b3198d
-DefaultImporter:
+ScriptedImporter:
+  internalIDToNameTable: []
   externalObjects: {}
+  serializedVersion: 2
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_0
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 156
+      height: 177
+    spriteID: 4f0c04385f3d4e7459da4ecf8e8e827e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_1
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 189
+      width: 156
+      height: 177
+    spriteID: 3b1a896816e67f348a6f695362581eec
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 189}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_2
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 374
+      width: 156
+      height: 177
+    spriteID: 5569ba9bf283ad0499b689c2399d08c5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 374}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_3
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 559
+      width: 156
+      height: 177
+    spriteID: 8a4836a4efa5008468f88360d5cecd01
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 559}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_4
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 744
+      width: 156
+      height: 177
+    spriteID: 0a4a5c7e20455814d9125a34709b53dd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 744}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_5
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 929
+      width: 156
+      height: 177
+    spriteID: 7942086ee73074248a4c197f7b41329e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 929}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_6
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1114
+      width: 156
+      height: 177
+    spriteID: 450b27bc21820c84a8e31160fa3bfa70
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1114}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_7
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1299
+      width: 156
+      height: 177
+    spriteID: df02f52462e5a994da1d997b9f9ea4fc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1299}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_8
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1484
+      width: 156
+      height: 177
+    spriteID: 7d5e8b7ec310718489f58ca4e5b5f495
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1484}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_9
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1669
+      width: 156
+      height: 177
+    spriteID: 80888e6f417216345b1b855b1f654b2f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1669}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_10
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1854
+      width: 156
+      height: 177
+    spriteID: 6993d3241bf5f364eaee29fbe7132d83
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1854}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_11
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 168
+      y: 4
+      width: 156
+      height: 177
+    spriteID: fa0a8a886bdd96d4ca7b87b0a1013300
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 168, y: 4}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_12
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 168
+      y: 189
+      width: 156
+      height: 177
+    spriteID: c2db25cb0ceb8824dacd1ffb5c646353
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 168, y: 189}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_13
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 168
+      y: 374
+      width: 156
+      height: 177
+    spriteID: 0c241f79209cf5b4bb7f016d37d9d750
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 168, y: 374}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_14
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 168
+      y: 559
+      width: 156
+      height: 177
+    spriteID: aa41a71dd0e2b45489828d0e6e3c886f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 168, y: 559}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_15
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 168
+      y: 744
+      width: 156
+      height: 177
+    spriteID: dfe24c59926b40749833b1294e130654
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 168, y: 744}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_16
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 168
+      y: 929
+      width: 156
+      height: 177
+    spriteID: f66213a63993d024888bfe33e40fe9bb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 168, y: 929}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_17
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 168
+      y: 1114
+      width: 156
+      height: 177
+    spriteID: 21879a6b19230464eb3052fcc3fd5335
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 168, y: 1114}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_18
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 168
+      y: 1299
+      width: 156
+      height: 177
+    spriteID: 937f35bd2e0844b408fece0e0c0983e7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 168, y: 1299}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_19
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 168
+      y: 1484
+      width: 156
+      height: 177
+    spriteID: 790d67c054a957b428d2da0dbae1baed
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 168, y: 1484}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_20
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 168
+      y: 1669
+      width: 156
+      height: 177
+    spriteID: a7b5bb8521ad1174f9c0d768f76a8587
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 168, y: 1669}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_21
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 168
+      y: 1854
+      width: 156
+      height: 177
+    spriteID: 3e3d0652210c6634a83fd93540af4d42
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 168, y: 1854}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_22
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 4
+      width: 156
+      height: 177
+    spriteID: 1e3d772a1713d4946a2643a0085919b2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 332, y: 4}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_23
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 189
+      width: 156
+      height: 177
+    spriteID: d19866d116ee0d44dacd6c7259eda407
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 332, y: 189}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_24
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 374
+      width: 156
+      height: 177
+    spriteID: a04bd2188f3929a4c89108f526965a75
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 332, y: 374}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_25
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 559
+      width: 156
+      height: 177
+    spriteID: 2ff0ac157d869bd44b751f8239876003
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 332, y: 559}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_26
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 744
+      width: 156
+      height: 177
+    spriteID: e87c4a7c570029348a52e39546dfaf17
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 332, y: 744}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_27
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 929
+      width: 156
+      height: 177
+    spriteID: 6f1f41357727f4a45b3ce4ca0afc379e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 332, y: 929}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_28
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 1114
+      width: 156
+      height: 177
+    spriteID: 5431dde742c59d04c84a525d93d30e2b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 332, y: 1114}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_29
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 1299
+      width: 156
+      height: 177
+    spriteID: 6b122bc2dd5042344ba2b7b2ebe2c680
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 332, y: 1299}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_30
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 1484
+      width: 156
+      height: 177
+    spriteID: fe8d22f20270cdf4b9c6498229fba386
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 332, y: 1484}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_31
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 1669
+      width: 156
+      height: 177
+    spriteID: bdfe62eef4507c9448070ed88188f3bd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 332, y: 1669}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_32
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 1854
+      width: 156
+      height: 177
+    spriteID: 9bfd72ffd4a3794408b64eeb796f3faa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 332, y: 1854}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_33
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 496
+      y: 4
+      width: 156
+      height: 177
+    spriteID: 1191bd14db628aa4c85363d2e9aeed85
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 496, y: 4}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_34
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 496
+      y: 189
+      width: 156
+      height: 177
+    spriteID: ba4c7808d80b4584fac38bd472d5954f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 496, y: 189}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_35
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 496
+      y: 374
+      width: 156
+      height: 177
+    spriteID: 7e25e7ae92d02294a82a37017169d59f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 496, y: 374}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_36
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 496
+      y: 559
+      width: 156
+      height: 177
+    spriteID: 9010b32736d2ef441abf837cec34edb3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 496, y: 559}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_37
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 496
+      y: 744
+      width: 156
+      height: 177
+    spriteID: c53600e270341474cba591a3b4322fa5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 496, y: 744}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_38
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 496
+      y: 929
+      width: 156
+      height: 177
+    spriteID: 9e0c1620c3a640e499443cb8159330ab
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 496, y: 929}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_39
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 496
+      y: 1114
+      width: 156
+      height: 177
+    spriteID: c64e0e79e90102b4287afa261f42b057
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 496, y: 1114}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_40
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 496
+      y: 1299
+      width: 156
+      height: 177
+    spriteID: 872750e54bbeb4a44b9593d5b22e802d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 496, y: 1299}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_41
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 496
+      y: 1484
+      width: 156
+      height: 177
+    spriteID: 2ca92a6ec5d90fb46a2a46df744c58d2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 496, y: 1484}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_42
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 496
+      y: 1669
+      width: 156
+      height: 177
+    spriteID: 9851861a7cd6e464a86ebfeb493dda84
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 496, y: 1669}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_43
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 496
+      y: 1854
+      width: 156
+      height: 177
+    spriteID: 2ea8e829af76f4a4ab00ef35e289e36e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 496, y: 1854}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_44
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 660
+      y: 4
+      width: 156
+      height: 177
+    spriteID: 8724164111f994b4b925a3d59ee7429c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 660, y: 4}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_45
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 660
+      y: 189
+      width: 156
+      height: 177
+    spriteID: 1346b7a483274034c81d746d2749c69c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 660, y: 189}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_46
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 660
+      y: 374
+      width: 156
+      height: 177
+    spriteID: ae2d01b6251bd8849b55349cdc871155
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 660, y: 374}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_47
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 660
+      y: 559
+      width: 156
+      height: 177
+    spriteID: 3e3c27ba7dec1724fb9c570204802016
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 660, y: 559}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_48
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 660
+      y: 744
+      width: 156
+      height: 177
+    spriteID: 8367f8b5b4423a94e87f4155036ff69d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 660, y: 744}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_49
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 660
+      y: 929
+      width: 156
+      height: 177
+    spriteID: d3b160da694ff8f40baffbaa0f610891
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 660, y: 929}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_50
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 660
+      y: 1114
+      width: 156
+      height: 177
+    spriteID: 76eba1db952cb7640bd038489ad0cafd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 660, y: 1114}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_51
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 660
+      y: 1299
+      width: 156
+      height: 177
+    spriteID: fa6e885fff624ec4ab25259c059d8134
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 660, y: 1299}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_52
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 660
+      y: 1484
+      width: 156
+      height: 177
+    spriteID: 8a93a1a9326f18f48b16d1296a57cf95
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 660, y: 1484}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_53
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 660
+      y: 1669
+      width: 156
+      height: 177
+    spriteID: b93bd70ddfcf2cf41857da507bb3ee44
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 660, y: 1669}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_54
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 660
+      y: 1854
+      width: 156
+      height: 177
+    spriteID: 1c9f0213206bd9346939bfff894cd4d5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 660, y: 1854}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_55
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 824
+      y: 4
+      width: 156
+      height: 177
+    spriteID: 5724c001a21dcb04a8e08dcf7ae39e40
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 824, y: 4}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_56
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 824
+      y: 189
+      width: 156
+      height: 177
+    spriteID: f783af41e7441244692d99f5350da42b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 824, y: 189}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_57
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 824
+      y: 374
+      width: 156
+      height: 177
+    spriteID: b0f08b29157b7064e8750ae44a52daa6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 824, y: 374}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_58
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 824
+      y: 559
+      width: 156
+      height: 177
+    spriteID: 74e7a279b601647428ece656d311b117
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 824, y: 559}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_59
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 824
+      y: 744
+      width: 156
+      height: 177
+    spriteID: 405c91eef383e4c45aeca7f8db9388c0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 824, y: 744}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_60
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 824
+      y: 929
+      width: 156
+      height: 177
+    spriteID: c3505c6caf5fdab4b93d781a1d4d816a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 824, y: 929}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_61
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 824
+      y: 1114
+      width: 156
+      height: 177
+    spriteID: 0c247d8460aab7d4b93e0a0da08ae4cb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 824, y: 1114}
+  - name: Pixel Asset - Portal Monolithic Animation_Frame_62
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0338983}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 824
+      y: 1299
+      width: 156
+      height: 177
+    spriteID: e147daf505d7d9948849aa5dcf4c6039
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 824, y: 1299}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 841189315
+    name: Pixel Asset - Portal Monolithic Animation
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_0
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: 4f0c04385f3d4e7459da4ecf8e8e827e
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_1
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: 3b1a896816e67f348a6f695362581eec
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_2
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: 5569ba9bf283ad0499b689c2399d08c5
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_3
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: 8a4836a4efa5008468f88360d5cecd01
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_4
+      frameIndex: 4
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: 0a4a5c7e20455814d9125a34709b53dd
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_5
+      frameIndex: 5
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: 7942086ee73074248a4c197f7b41329e
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_6
+      frameIndex: 6
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: 450b27bc21820c84a8e31160fa3bfa70
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_7
+      frameIndex: 7
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: df02f52462e5a994da1d997b9f9ea4fc
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_8
+      frameIndex: 8
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: 7d5e8b7ec310718489f58ca4e5b5f495
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_9
+      frameIndex: 9
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: 80888e6f417216345b1b855b1f654b2f
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_10
+      frameIndex: 10
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: 6993d3241bf5f364eaee29fbe7132d83
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_11
+      frameIndex: 11
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: fa0a8a886bdd96d4ca7b87b0a1013300
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_12
+      frameIndex: 12
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: c2db25cb0ceb8824dacd1ffb5c646353
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_13
+      frameIndex: 13
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: 0c241f79209cf5b4bb7f016d37d9d750
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_14
+      frameIndex: 14
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: aa41a71dd0e2b45489828d0e6e3c886f
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_15
+      frameIndex: 15
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: dfe24c59926b40749833b1294e130654
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_16
+      frameIndex: 16
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: f66213a63993d024888bfe33e40fe9bb
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_17
+      frameIndex: 17
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: 21879a6b19230464eb3052fcc3fd5335
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_18
+      frameIndex: 18
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: 937f35bd2e0844b408fece0e0c0983e7
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_19
+      frameIndex: 19
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: 790d67c054a957b428d2da0dbae1baed
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_20
+      frameIndex: 20
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: a7b5bb8521ad1174f9c0d768f76a8587
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_21
+      frameIndex: 21
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: 3e3d0652210c6634a83fd93540af4d42
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_22
+      frameIndex: 22
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: 1e3d772a1713d4946a2643a0085919b2
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_23
+      frameIndex: 23
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: d19866d116ee0d44dacd6c7259eda407
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_24
+      frameIndex: 24
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: a04bd2188f3929a4c89108f526965a75
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_25
+      frameIndex: 25
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: 2ff0ac157d869bd44b751f8239876003
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_26
+      frameIndex: 26
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: e87c4a7c570029348a52e39546dfaf17
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_27
+      frameIndex: 27
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: 6f1f41357727f4a45b3ce4ca0afc379e
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_28
+      frameIndex: 28
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: 5431dde742c59d04c84a525d93d30e2b
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_29
+      frameIndex: 29
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: 6b122bc2dd5042344ba2b7b2ebe2c680
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_30
+      frameIndex: 30
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: fe8d22f20270cdf4b9c6498229fba386
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_31
+      frameIndex: 31
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: bdfe62eef4507c9448070ed88188f3bd
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_32
+      frameIndex: 32
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: 9bfd72ffd4a3794408b64eeb796f3faa
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_33
+      frameIndex: 33
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: 1191bd14db628aa4c85363d2e9aeed85
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_34
+      frameIndex: 34
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: ba4c7808d80b4584fac38bd472d5954f
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_35
+      frameIndex: 35
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: 7e25e7ae92d02294a82a37017169d59f
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_36
+      frameIndex: 36
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: 9010b32736d2ef441abf837cec34edb3
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_37
+      frameIndex: 37
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: c53600e270341474cba591a3b4322fa5
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_38
+      frameIndex: 38
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: 9e0c1620c3a640e499443cb8159330ab
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_39
+      frameIndex: 39
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: c64e0e79e90102b4287afa261f42b057
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_40
+      frameIndex: 40
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: 872750e54bbeb4a44b9593d5b22e802d
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_41
+      frameIndex: 41
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: 2ca92a6ec5d90fb46a2a46df744c58d2
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_42
+      frameIndex: 42
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: 9851861a7cd6e464a86ebfeb493dda84
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_43
+      frameIndex: 43
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: 2ea8e829af76f4a4ab00ef35e289e36e
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_44
+      frameIndex: 44
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: 8724164111f994b4b925a3d59ee7429c
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_45
+      frameIndex: 45
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: 1346b7a483274034c81d746d2749c69c
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_46
+      frameIndex: 46
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: ae2d01b6251bd8849b55349cdc871155
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_47
+      frameIndex: 47
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: 3e3c27ba7dec1724fb9c570204802016
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_48
+      frameIndex: 48
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: 8367f8b5b4423a94e87f4155036ff69d
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_49
+      frameIndex: 49
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: d3b160da694ff8f40baffbaa0f610891
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_50
+      frameIndex: 50
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: 76eba1db952cb7640bd038489ad0cafd
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_51
+      frameIndex: 51
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: fa6e885fff624ec4ab25259c059d8134
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_52
+      frameIndex: 52
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: 8a93a1a9326f18f48b16d1296a57cf95
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_53
+      frameIndex: 53
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: b93bd70ddfcf2cf41857da507bb3ee44
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_54
+      frameIndex: 54
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: 1c9f0213206bd9346939bfff894cd4d5
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_55
+      frameIndex: 55
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: 5724c001a21dcb04a8e08dcf7ae39e40
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_56
+      frameIndex: 56
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: f783af41e7441244692d99f5350da42b
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_57
+      frameIndex: 57
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: b0f08b29157b7064e8750ae44a52daa6
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_58
+      frameIndex: 58
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: 74e7a279b601647428ece656d311b117
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_59
+      frameIndex: 59
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: 405c91eef383e4c45aeca7f8db9388c0
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_60
+      frameIndex: 60
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: c3505c6caf5fdab4b93d781a1d4d816a
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_61
+      frameIndex: 61
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: 0c247d8460aab7d4b93e0a0da08ae4cb
+    - name: Pixel Asset - Portal Monolithic Animation_Frame_62
+      frameIndex: 62
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 6
+        width: 156
+        height: 177
+      spriteId: e147daf505d7d9948849aa5dcf4c6039
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 190, y: 190}

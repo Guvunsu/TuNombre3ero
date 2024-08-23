@@ -41,7 +41,11 @@ public class MovPlayer : MonoBehaviour {
         vector2D = new Vector2(inputX * moveSpeed * dt, rbPlayer.velocity.x).normalized;
         rbPlayer.velocity = vector2D;
     }
-    
+   public void disableMovement()
+    {
+        movePlayer = 0;
+        moveSpeed = 0;
+    }
     void movimiento() { 
         // velocidad movimeinto 
         if (Input.GetKey(KeyCode.LeftShift)) {
