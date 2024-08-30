@@ -71,6 +71,7 @@ public class PlayerManager : MonoBehaviour
             scriptMovePlayer.disableMovement();
             //transform.position  vere estados de maquinas finitas y ponerle un cronometro a este 
         }
+        return null;
     }
     private void OnTriggerEnter2D(Collider2D collision)
     { // el OncollisionTrigger me sirve para tomar mis objetos del mapa 

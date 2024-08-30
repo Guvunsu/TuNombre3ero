@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using static UnityEditor.VersionControl.Asset;
 
 public class FiniteStateMachine : MonoBehaviour {
@@ -19,26 +20,25 @@ public class FiniteStateMachine : MonoBehaviour {
         PERSECUTING ejemplo , es mejor hacer todo en una maquina de estado 
                        */
     }
-    public class FiniteStateMachineState : MonoBehaviour {
-        #region
-# UnityMethods
-# FiniteStateMachine
+    //public class FiniteStateMachineState : MonoBehaviour {
+    //    #region
 
-# LocalMethods
-    }
+    //}
+
+    public state myState;
 
     protected bool IsInIdleState {
         get {
-            return (state == state.IDLE_UP
-                || state == state.IDLE_DOWN
-                || state == state.IDLE_LEFT
-                || state == state.IDLE_RIGHT);
+            return (myState == state.IDLE_UP
+                || myState == state.IDLE_DOWN
+                || myState == state.IDLE_LEFT
+                || myState == state.IDLE_RIGHT);
         }
     }
     void isInIdleState() {
 
     }
-    #endregion
+
     void Start() {
 
     }
@@ -46,18 +46,18 @@ public class FiniteStateMachine : MonoBehaviour {
 
     void Update() {
         Debug.Log(gameObject.name + " FiniteStateMachine - Update(): is in any Idle state " + IsInIdleState);
-        Debug.Log(gameObject.name + "Finite State - Update(): we will move to " + value.ToString() + " state:0");
-            switch (state) {
-            case States.IDLE_UP:
-            case States.IDLE_DOWN:
-            case States.IDLE_LEFT:
-            case States.IDLE_RIGHT:
+        //Debug.Log(gameObject.name + "Finite State - Update(): we will move to " + value.ToString() + " state:0");
+        switch (myState) {
+            case state.IDLE_UP:
+            case state.IDLE_DOWN:
+            case state.IDLE_LEFT:
+            case state.IDLE_RIGHT:
                 isInIdleState();
                 break;
-            case States.MOVING_UP:
-            case States.MOVING_DOWN:
-            case States.MOVING_LEFT:
-            case States.MOVING_RIGHT:
+            case state.MOVING_UP:
+            case state.MOVING_DOWN:
+            case state.MOVING_LEFT:
+            case state.MOVING_RIGHT:
                 MovingState();
                 break;
         }
@@ -67,16 +67,25 @@ public class FiniteStateMachine : MonoBehaviour {
 
     }
 
-    public States SetState {
+    public state SetState {
         set {
             Debug.Log(gameObject.name + "Finite State - SetUpdate(): we will move to " + value.ToString() + " state:0");
-            state = value;
+            myState = value;
 
         }
     }
     protected void idleState() {
-        if (Input.GetKeyDown(KeyCode.W)) { 
-            SetState = States.MOVING
+        if (Input.GetKeyDown(KeyCode.W)) {
+            //SetState = state.MOVING
         }
+    }
+    protected Vector2 _movementInputVector;
+    protected void handleMovement(InputAction.CallBackContext value) {
+        _movementInputVector = value.ReadValue<Vector2>();
+    }
+    // we recieve the event similar to  getbuttondown(),which means
+    //we recieve the very first moment of the input 
+    protected void handleAttack(InputAction.CallBackContext value) {
+
     }
 }
