@@ -6,7 +6,7 @@ using UnityEngine.UIElements;
 public class MovPlayer : MonoBehaviour {
 
     // jugador 
-    [SerializeField] private float movePlayer;
+    float movePlayer = 0;
     [SerializeField] private float moveSpeed;
     [SerializeField] private int rollingPlayer;
     [SerializeField] private double rollingTimer;
@@ -41,19 +41,17 @@ public class MovPlayer : MonoBehaviour {
         vector2D = new Vector2(inputX * moveSpeed * dt, rbPlayer.velocity.x).normalized;
         rbPlayer.velocity = vector2D;
     }
-   public void disableMovement()
-    {
-        movePlayer = 0;
-        moveSpeed = 0;
+    public void disableMovement() {
+        movePlayer = moveSpeed;
     }
-    void movimiento() { 
+    void movimiento() {
         // velocidad movimeinto 
         if (Input.GetKey(KeyCode.LeftShift)) {
-           // rbPlayer.MovePosition(transform.position.x , transform.position.y);
+            // rbPlayer.MovePosition(transform.position.x , transform.position.y);
             print("leftShift");
             moveSpeed = 1800f;
         } else {
-            moveSpeed = 900f;  
+            moveSpeed = 900f;
         }
 
         // Animator Flip Sprite
@@ -62,7 +60,7 @@ public class MovPlayer : MonoBehaviour {
             animator.SetFloat("Horizontal", inputX);
         }
         if (+vector2D.y + vector2D.x < 0) {
-            transform.localScale =Vector2.one;
+            transform.localScale = Vector2.one;
             animator.SetFloat("Horizontal", inputX);
         }
         if (vector2D.x > 0) {
@@ -90,9 +88,7 @@ public class MovPlayer : MonoBehaviour {
         if (+vector2D.y + vector2D.x > 0) {
             transform.localScale = -1 * Vector2.one;
             animator.SetFloat("Vertical", inputY);
-        }
-        
-        else {
+        } else {
             animator.SetFloat("Speed", vector2D.magnitude);
         }
     }
