@@ -77,7 +77,6 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
-    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -90,7 +89,6 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
-    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -1152,7 +1150,6 @@ ScriptedImporter:
     cells:
     - name: monolith_animation_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1161,7 +1158,6 @@ ScriptedImporter:
       spriteId: 58c990539ff04ce4b9a8f40c594f55e8
     - name: monolith_animation_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1170,7 +1166,6 @@ ScriptedImporter:
       spriteId: cf87cf4b99637cf43a6890e1eb93e404
     - name: monolith_animation_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1179,7 +1174,6 @@ ScriptedImporter:
       spriteId: 6b0254932afe17445be3f19b1bd0fbae
     - name: monolith_animation_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1188,7 +1182,6 @@ ScriptedImporter:
       spriteId: c57e7e7b7f28c53428de62a4a1a1ec64
     - name: monolith_animation_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1197,7 +1190,6 @@ ScriptedImporter:
       spriteId: d21fd0c72595b154b95afe231f592470
     - name: monolith_animation_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1206,7 +1198,6 @@ ScriptedImporter:
       spriteId: b6729dc626e61e14aba1e02c3a9aca30
     - name: monolith_animation_Frame_6
       frameIndex: 6
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1215,7 +1206,6 @@ ScriptedImporter:
       spriteId: 6d8e4f0495bb05c4eb0156087788d607
     - name: monolith_animation_Frame_7
       frameIndex: 7
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1224,7 +1214,6 @@ ScriptedImporter:
       spriteId: 06e3db8af426e1d46a85fbaa6e436188
     - name: monolith_animation_Frame_8
       frameIndex: 8
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1233,7 +1222,6 @@ ScriptedImporter:
       spriteId: a25de043aeb77ef4b840c1521d063467
     - name: monolith_animation_Frame_9
       frameIndex: 9
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1242,7 +1230,6 @@ ScriptedImporter:
       spriteId: 1aca54985411bfb4c90409a5c735f14e
     - name: monolith_animation_Frame_10
       frameIndex: 10
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1251,7 +1238,6 @@ ScriptedImporter:
       spriteId: 23e92bf4bb7d37b43998f12a1bd12bc7
     - name: monolith_animation_Frame_11
       frameIndex: 11
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1260,7 +1246,6 @@ ScriptedImporter:
       spriteId: fc516154ebb9688438976cf6eaa796eb
     - name: monolith_animation_Frame_12
       frameIndex: 12
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1269,7 +1254,6 @@ ScriptedImporter:
       spriteId: d3fe04d3e53068849ad83ede6a4859ab
     - name: monolith_animation_Frame_13
       frameIndex: 13
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1278,7 +1262,6 @@ ScriptedImporter:
       spriteId: c446c45c4a742b14897a44e55ab5e598
     - name: monolith_animation_Frame_14
       frameIndex: 14
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1287,7 +1270,6 @@ ScriptedImporter:
       spriteId: 59dc3bf4df312d8419af299c8878c50f
     - name: monolith_animation_Frame_15
       frameIndex: 15
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1296,7 +1278,6 @@ ScriptedImporter:
       spriteId: 10f88ddbeef0f1c4f987efbc1d114c4c
     - name: monolith_animation_Frame_16
       frameIndex: 16
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1305,7 +1286,6 @@ ScriptedImporter:
       spriteId: 428cf2e871dbf6743805c12522ca6ef7
     - name: monolith_animation_Frame_17
       frameIndex: 17
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1314,7 +1294,6 @@ ScriptedImporter:
       spriteId: 12f5ce3f63c2f94469b8901b45d76ce2
     - name: monolith_animation_Frame_18
       frameIndex: 18
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1323,7 +1302,6 @@ ScriptedImporter:
       spriteId: 56e3e65ee280a8a459a89c472627c210
     - name: monolith_animation_Frame_19
       frameIndex: 19
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1332,7 +1310,6 @@ ScriptedImporter:
       spriteId: 6f82287c12367514f811eb44c7fc952e
     - name: monolith_animation_Frame_20
       frameIndex: 20
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1341,7 +1318,6 @@ ScriptedImporter:
       spriteId: c0f67d76bf2309c47b0323f935c69b3e
     - name: monolith_animation_Frame_21
       frameIndex: 21
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1350,7 +1326,6 @@ ScriptedImporter:
       spriteId: 2247e6b1c7d49764797c1149c0b2d7c9
     - name: monolith_animation_Frame_22
       frameIndex: 22
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1359,7 +1334,6 @@ ScriptedImporter:
       spriteId: 10515e2d451b40a4bac6141540a50bd2
     - name: monolith_animation_Frame_23
       frameIndex: 23
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1368,7 +1342,6 @@ ScriptedImporter:
       spriteId: 00ef44a0ec9d18e4880919ef5a1e8888
     - name: monolith_animation_Frame_24
       frameIndex: 24
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1377,7 +1350,6 @@ ScriptedImporter:
       spriteId: 2dedbb9a16bfaea49abaa299b94462a9
     - name: monolith_animation_Frame_25
       frameIndex: 25
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1386,7 +1358,6 @@ ScriptedImporter:
       spriteId: 0a553da584a86434ca677a30b230d3a8
     - name: monolith_animation_Frame_26
       frameIndex: 26
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1395,7 +1366,6 @@ ScriptedImporter:
       spriteId: bfd47dfcd88edfe4eba10e190c1aaecd
     - name: monolith_animation_Frame_27
       frameIndex: 27
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1404,7 +1374,6 @@ ScriptedImporter:
       spriteId: 1c444951dd498f14b9e4b58f63f59d10
     - name: monolith_animation_Frame_28
       frameIndex: 28
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1413,7 +1382,6 @@ ScriptedImporter:
       spriteId: fc40aaba295324f49a89645d6a1bac66
     - name: monolith_animation_Frame_29
       frameIndex: 29
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1422,7 +1390,6 @@ ScriptedImporter:
       spriteId: 8fa8050d6f595e54994583353f833f75
     - name: monolith_animation_Frame_30
       frameIndex: 30
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1431,7 +1398,6 @@ ScriptedImporter:
       spriteId: bd0f7f52610e20448a716e2bbdd5bf89
     - name: monolith_animation_Frame_31
       frameIndex: 31
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1440,7 +1406,6 @@ ScriptedImporter:
       spriteId: 0adb70246a4b6534391d6e37bb526b2f
     - name: monolith_animation_Frame_32
       frameIndex: 32
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1449,7 +1414,6 @@ ScriptedImporter:
       spriteId: 0b182254d8542154b943d2bb50a43c62
     - name: monolith_animation_Frame_33
       frameIndex: 33
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1458,7 +1422,6 @@ ScriptedImporter:
       spriteId: 5d25eb0835d9d57428b463563b39a899
     - name: monolith_animation_Frame_34
       frameIndex: 34
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1467,7 +1430,6 @@ ScriptedImporter:
       spriteId: 395f0358f7df9304e96fa5e0ccaa27d6
     - name: monolith_animation_Frame_35
       frameIndex: 35
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1476,7 +1438,6 @@ ScriptedImporter:
       spriteId: dac055e35b4c61a49ad3d839558455ad
     - name: monolith_animation_Frame_36
       frameIndex: 36
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1485,7 +1446,6 @@ ScriptedImporter:
       spriteId: ce4782b37472a9b44bae3c0de2979eaa
     - name: monolith_animation_Frame_37
       frameIndex: 37
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1494,7 +1454,6 @@ ScriptedImporter:
       spriteId: 7f0f9df83f01b874ebeff9d3c146c083
     - name: monolith_animation_Frame_38
       frameIndex: 38
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1503,7 +1462,6 @@ ScriptedImporter:
       spriteId: 10dd25d216c974d42862cf580041101d
     - name: monolith_animation_Frame_39
       frameIndex: 39
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1512,7 +1470,6 @@ ScriptedImporter:
       spriteId: 57ee4be3d6ed8ca4287c00c5238857dc
     - name: monolith_animation_Frame_40
       frameIndex: 40
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1521,7 +1478,6 @@ ScriptedImporter:
       spriteId: c7da7e989f611ed4b875361ce28f859f
     - name: monolith_animation_Frame_41
       frameIndex: 41
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1530,7 +1486,6 @@ ScriptedImporter:
       spriteId: 394330f2f38ba7742b577b26f869b8b2
     - name: monolith_animation_Frame_42
       frameIndex: 42
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1539,7 +1494,6 @@ ScriptedImporter:
       spriteId: 10bcca62353f128429e96857219410e2
     - name: monolith_animation_Frame_43
       frameIndex: 43
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1548,7 +1502,6 @@ ScriptedImporter:
       spriteId: 31c94654ddb732d44a35c32f9e9afc05
     - name: monolith_animation_Frame_44
       frameIndex: 44
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1557,7 +1510,6 @@ ScriptedImporter:
       spriteId: f9e8b99d0379ede43a66ac6e7154a91d
     - name: monolith_animation_Frame_45
       frameIndex: 45
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1566,7 +1518,6 @@ ScriptedImporter:
       spriteId: 34be79919b99d3c4aa490deb38893d51
     - name: monolith_animation_Frame_46
       frameIndex: 46
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1575,7 +1526,6 @@ ScriptedImporter:
       spriteId: b6130d48a7ef4d4408c7f7e33f2b6d7e
     - name: monolith_animation_Frame_47
       frameIndex: 47
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1584,7 +1534,6 @@ ScriptedImporter:
       spriteId: 60d8115bb7ae7e94cbfc7915e3c24b7c
     - name: monolith_animation_Frame_48
       frameIndex: 48
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1593,7 +1542,6 @@ ScriptedImporter:
       spriteId: 3bad33c9e37456242ab1c604d2e3c413
     - name: monolith_animation_Frame_49
       frameIndex: 49
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1602,7 +1550,6 @@ ScriptedImporter:
       spriteId: e659bf92d738ce64a83aca7facee42ea
     - name: monolith_animation_Frame_50
       frameIndex: 50
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1612,7 +1559,6 @@ ScriptedImporter:
     linkedCells: []
     parentIndex: -1
   platformSettings: []
-  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 54, y: 169}
