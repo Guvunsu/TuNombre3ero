@@ -4,27 +4,26 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - TileMap
   - Objectos
   - Enemigos
-  - Salida
   - Key
   - Agua
   - ObjectosTrigger
+  - Destroy
   - ObjectosCollision
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - BackGround
+  - 
   - Water
   - UI
-  - TileMap
-  - ZonaDeMuerte
-  - ObjectsOnCollision
-  - ObjectsTriggers
+  - 
+  - 
+  - 
+  - 
   - Player
-  - VirtualCamara0
+  - 
   - 
   - 
   - 
@@ -49,27 +48,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Water
-    uniqueID: 2657558667
-    locked: 0
-  - name: Ground
-    uniqueID: 2156287437
-    locked: 0
-  - name: Estatuas
-    uniqueID: 3988612579
-    locked: 0
-  - name: ObjectosTrigger
-    uniqueID: 3533409927
-    locked: 0
-  - name: ObjetosOncollision
-    uniqueID: 2470056225
-    locked: 0
-  - name: Enemy
-    uniqueID: 2140444161
-    locked: 0
-  - name: Player
-    uniqueID: 4069797761
-    locked: 0
   - name: UI
     uniqueID: 2768875745
+    locked: 0
+  - name: Hurtbox
+    uniqueID: 561132685
+    locked: 0
+  - name: Hitbox
+    uniqueID: 2715377143
     locked: 0
