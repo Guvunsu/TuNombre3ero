@@ -4,13 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Objectos
-  - Enemigos
-  - Key
-  - Agua
-  - ObjectosTrigger
-  - Destroy
-  - ObjectosCollision
+  - Hitbox
+  - Hurtbox
   layers:
   - Default
   - TransparentFX
@@ -18,11 +13,11 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
   - Player
+  - EnemyNPC
+  - DestroyableObjects
+  - 
+  - 
   - 
   - 
   - 
