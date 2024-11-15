@@ -40,7 +40,7 @@ public class GameManager : MonoBehaviour
 
         // Inicializamos el tiempo restante con el tiempo que empieza el nivel
         tiempoRestante = tiempoMinimo;
-        PauseGame();
+       // PauseGame();
 
     }
 
@@ -68,28 +68,27 @@ public class GameManager : MonoBehaviour
     #region Funciones para el panel de pausa
 
     // Activa el menú de pausa
-    public void PauseGame()
-    {
-        // Activar o desactivar el menú de pausa cuando el jugador presiona "P"
-        if (Input.GetKeyDown(KeyCode.P))
-            print("jalo");
-        {
-            if (paused)
-            {
-                ResumeGame();
-                ReanudarTimer();
-            }
-            else
-            {
-                PauseGame();
-                PausarTimer();
-            }
-
-        }
-        paused = true;
-        pausePanel.SetActive(true);  // Activar el panel de pausa
-        Time.timeScale = 0f;         // Detiene el tiempo del juego
-    }
+    //public void PauseGame()
+    //{
+    //    // Activar o desactivar el menú de pausa cuando el jugador presiona "P"
+    //    if (Input.GetKeyDown(KeyCode.P))
+    //    {
+    //        print("jalo");
+    //        if (paused)
+    //        {
+    //            ResumeGame();
+    //            ReanudarTimer();
+    //        }
+    //        else
+    //        {
+    //            PauseGame();
+    //            PausarTimer();
+    //        }
+    //    }
+    //    paused = true;
+    //    pausePanel.SetActive(true);  // Activar el panel de pausa
+    //    Time.timeScale = 0f;         // Detiene el tiempo del juego
+    //}
 
     // Desactiva el menú de pausa
     public void ResumeGame()
