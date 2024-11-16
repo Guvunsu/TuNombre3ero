@@ -3,7 +3,7 @@ guid: 4d4c9be57ded0f340a2d19d1343ea95c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,10 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -32,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -41,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -62,6 +64,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -73,6 +77,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -85,6 +90,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -97,6 +103,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -109,11 +116,1314 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 493
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 213f4b32f064640449dcbc85cbb6b150
+      internalID: -2038714099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 493
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f8b4d6be94f7f4aa57ff44c8507f81
+      internalID: 1005616430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 493
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8fbbd18701d0784fa6f90ae1968ba20
+      internalID: 179386145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_3
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 493
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d42604ab09e41c44b92ca1ad8b3f22d
+      internalID: -2079473338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_4
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 493
+        width: 15
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72dee1f076277bc45aa0e2ce67c7effe
+      internalID: 341409731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_5
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 492
+        width: 15
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f01a9ab5fba11348b94eb277847d092
+      internalID: -422065158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_6
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 492
+        width: 68
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d184a80a657a654290d2a3daf8179d9
+      internalID: 1149307605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_7
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 461
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01d8a1fa3fdfcf84e963990cd9f2e551
+      internalID: 667360024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_8
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 461
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2696cd7ae6a70e5469a278cf1e513af6
+      internalID: -638606069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_9
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 459
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf0f98714fb2e28468ce0850342d6cb2
+      internalID: -214496635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_10
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 459
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe86acc9b500a148b23e92adca1ecaa
+      internalID: -234291486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_11
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 461
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f518058976d731c47a0c0a6560fa33d7
+      internalID: -1774840159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_12
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 429
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b725afffa25f22f468d3265944734bf6
+      internalID: -70151057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_13
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 429
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c59f83c808114944b821366b4879437
+      internalID: -953723552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_14
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 427
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86125d4d5b7ce4040b5bef038856ec23
+      internalID: 290780381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_15
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 427
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022ff63697edf8047b0f968b612ea61f
+      internalID: 1845524636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_16
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 429
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c913ed492fe9e3d4c801ce597cc24d1b
+      internalID: 424978757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_17
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 397
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2177164dab595449936288d8ced3ed6
+      internalID: 1277178351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_18
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 397
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdebec14ac752334c96f96e3ef9e11df
+      internalID: 55980951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_19
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 397
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a59be713d6756ce4daa2609760683040
+      internalID: 1687097920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_20
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 397
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a088ff4c4703a640b37c28ebf5c8aeb
+      internalID: -1204319879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_21
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 397
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37b698e567b38a14bbaea039f3d80e86
+      internalID: -1318123871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_22
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 365
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94300dd42cb9f4340bdb97b35ed11211
+      internalID: 554114330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_23
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 365
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bfb1da19d1424c4e9d44ce268b54c25
+      internalID: 230955726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_24
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 365
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f5d5873833b5b742b3c3ff9e968acc7
+      internalID: -535395956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_25
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 365
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e99e07be3613da448816885a5c30318
+      internalID: -1282231576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_26
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 365
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add17b6c49003f147abbc368c793546e
+      internalID: -1098204503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_27
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 333
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c2f03031c1232046b109b90fb1faca3
+      internalID: -1915103161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_28
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 333
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7437c5ac34c1b444a9879e71b4d6e599
+      internalID: -342121935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_29
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 333
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27af5d693a3d314d96d900a6060e3a3
+      internalID: -1987504804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_30
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 333
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af1ede16124a2ad4daf35dc45c470ee2
+      internalID: 161429335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_31
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 301
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d338421d80d011b498e5827683230f15
+      internalID: 971379324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_32
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 301
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be90ecbc0df9821419d21952c4187169
+      internalID: -1976581258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_33
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 301
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0579fdd4d9f944542b9f201f84dea56e
+      internalID: -1769957993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_34
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 301
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1e515a07e8d834592971dba4cea33c
+      internalID: -1181729275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_35
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 269
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0952f9b1f4685945894caa144153b7c
+      internalID: -1531902307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_36
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 269
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d148a6c7e2bf2499621422cbcd484d
+      internalID: 918214770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_37
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 269
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2290fe074b75c5499e9479866efa018
+      internalID: -967464965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_38
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 269
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b6181991be4d0f459ed27ecf09fb2e5
+      internalID: -1898470537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_39
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 237
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a1fa2486b7da142995817211ae4588
+      internalID: 1730652379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_40
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 237
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4122239ce17ac4488193b3d95579062
+      internalID: 1799821548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_41
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 237
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a878c2de17949bf4595982702fb97621
+      internalID: 1891296296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_42
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 237
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e5708ccae0e5f64db6e544f043b65b5
+      internalID: 1593794459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_43
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 205
+        width: 15
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af7cb8ff7858fa478faad1f196a6d6b
+      internalID: -747739258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_44
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 173
+        width: 15
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21005956be807b408189d5815d3f722
+      internalID: -645763893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_45
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 173
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9102317078d8914ea73603c90efc2b8
+      internalID: 961515801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_46
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 173
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33347648f0b4b544a593c0c742eed57
+      internalID: -254309753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_47
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 173
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03efe7d9a3812cc4fa529f750f18b13d
+      internalID: -695501319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_48
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 173
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f7147420e018348814d5e910363e8b
+      internalID: -449607703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_49
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 141
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10e8edfa73bd7d946b6af5a12e9276b0
+      internalID: 1303611414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_50
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69831fbf82e328e4e817e51045c51fad
+      internalID: 466227620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_51
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 141
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64bb103af40bdb046a32c8c07150e035
+      internalID: 1216005240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_52
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 141
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb43bd06010b26048a16c999bc3a7768
+      internalID: 1763164607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_53
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 141
+        width: 15
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1488b86518ff3f440be070562ede6fa9
+      internalID: 1787899038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_54
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 109
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b6b18ebc2e6b554b9af3e3752e0d053
+      internalID: 1279310834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_55
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 109
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ddf8ae63abb694b9773c67d31d44ec
+      internalID: 1886770934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_56
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 77
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c4a260f56ef9d42a26326b455e1d99
+      internalID: 1484777945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_57
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 77
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 123faa648b67398448593505e2a8e2e4
+      internalID: 1285218111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_58
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 45
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095eeb4c55a76c44d85d327d348c1542
+      internalID: 1899084191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_59
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 45
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f6bc5623c7980d4999a597a1c1a3348
+      internalID: -1363850947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_60
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 13
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972195fbf3abfbe48b1a9d34d0b7bb6a
+      internalID: -1816805521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesSkeletonAnimations_61
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 13
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e95da81d6f11f04fa8e8ba1cd128014
+      internalID: -1340431519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -124,9 +1434,71 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Minifantasy_CreaturesSkeletonAnimations_0: -2038714099
+      Minifantasy_CreaturesSkeletonAnimations_1: 1005616430
+      Minifantasy_CreaturesSkeletonAnimations_10: -234291486
+      Minifantasy_CreaturesSkeletonAnimations_11: -1774840159
+      Minifantasy_CreaturesSkeletonAnimations_12: -70151057
+      Minifantasy_CreaturesSkeletonAnimations_13: -953723552
+      Minifantasy_CreaturesSkeletonAnimations_14: 290780381
+      Minifantasy_CreaturesSkeletonAnimations_15: 1845524636
+      Minifantasy_CreaturesSkeletonAnimations_16: 424978757
+      Minifantasy_CreaturesSkeletonAnimations_17: 1277178351
+      Minifantasy_CreaturesSkeletonAnimations_18: 55980951
+      Minifantasy_CreaturesSkeletonAnimations_19: 1687097920
+      Minifantasy_CreaturesSkeletonAnimations_2: 179386145
+      Minifantasy_CreaturesSkeletonAnimations_20: -1204319879
+      Minifantasy_CreaturesSkeletonAnimations_21: -1318123871
+      Minifantasy_CreaturesSkeletonAnimations_22: 554114330
+      Minifantasy_CreaturesSkeletonAnimations_23: 230955726
+      Minifantasy_CreaturesSkeletonAnimations_24: -535395956
+      Minifantasy_CreaturesSkeletonAnimations_25: -1282231576
+      Minifantasy_CreaturesSkeletonAnimations_26: -1098204503
+      Minifantasy_CreaturesSkeletonAnimations_27: -1915103161
+      Minifantasy_CreaturesSkeletonAnimations_28: -342121935
+      Minifantasy_CreaturesSkeletonAnimations_29: -1987504804
+      Minifantasy_CreaturesSkeletonAnimations_3: -2079473338
+      Minifantasy_CreaturesSkeletonAnimations_30: 161429335
+      Minifantasy_CreaturesSkeletonAnimations_31: 971379324
+      Minifantasy_CreaturesSkeletonAnimations_32: -1976581258
+      Minifantasy_CreaturesSkeletonAnimations_33: -1769957993
+      Minifantasy_CreaturesSkeletonAnimations_34: -1181729275
+      Minifantasy_CreaturesSkeletonAnimations_35: -1531902307
+      Minifantasy_CreaturesSkeletonAnimations_36: 918214770
+      Minifantasy_CreaturesSkeletonAnimations_37: -967464965
+      Minifantasy_CreaturesSkeletonAnimations_38: -1898470537
+      Minifantasy_CreaturesSkeletonAnimations_39: 1730652379
+      Minifantasy_CreaturesSkeletonAnimations_4: 341409731
+      Minifantasy_CreaturesSkeletonAnimations_40: 1799821548
+      Minifantasy_CreaturesSkeletonAnimations_41: 1891296296
+      Minifantasy_CreaturesSkeletonAnimations_42: 1593794459
+      Minifantasy_CreaturesSkeletonAnimations_43: -747739258
+      Minifantasy_CreaturesSkeletonAnimations_44: -645763893
+      Minifantasy_CreaturesSkeletonAnimations_45: 961515801
+      Minifantasy_CreaturesSkeletonAnimations_46: -254309753
+      Minifantasy_CreaturesSkeletonAnimations_47: -695501319
+      Minifantasy_CreaturesSkeletonAnimations_48: -449607703
+      Minifantasy_CreaturesSkeletonAnimations_49: 1303611414
+      Minifantasy_CreaturesSkeletonAnimations_5: -422065158
+      Minifantasy_CreaturesSkeletonAnimations_50: 466227620
+      Minifantasy_CreaturesSkeletonAnimations_51: 1216005240
+      Minifantasy_CreaturesSkeletonAnimations_52: 1763164607
+      Minifantasy_CreaturesSkeletonAnimations_53: 1787899038
+      Minifantasy_CreaturesSkeletonAnimations_54: 1279310834
+      Minifantasy_CreaturesSkeletonAnimations_55: 1886770934
+      Minifantasy_CreaturesSkeletonAnimations_56: 1484777945
+      Minifantasy_CreaturesSkeletonAnimations_57: 1285218111
+      Minifantasy_CreaturesSkeletonAnimations_58: 1899084191
+      Minifantasy_CreaturesSkeletonAnimations_59: -1363850947
+      Minifantasy_CreaturesSkeletonAnimations_6: 1149307605
+      Minifantasy_CreaturesSkeletonAnimations_60: -1816805521
+      Minifantasy_CreaturesSkeletonAnimations_61: -1340431519
+      Minifantasy_CreaturesSkeletonAnimations_7: 667360024
+      Minifantasy_CreaturesSkeletonAnimations_8: -638606069
+      Minifantasy_CreaturesSkeletonAnimations_9: -214496635
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
