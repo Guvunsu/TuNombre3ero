@@ -54,6 +54,9 @@ public class FSM : MonoBehaviour {
         animator = GetComponent<Animator>();
     }
     void Update() {
+
+    }
+    private void OnDrawGizmos() {
         initializedStatesAgent();
     }
     public void initializedStatesAgent() {
