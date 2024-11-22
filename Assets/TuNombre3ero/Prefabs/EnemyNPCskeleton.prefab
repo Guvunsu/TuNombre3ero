@@ -87,6 +87,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8812822292634176881}
   - component: {fileID: 1674994757254317829}
+  - component: {fileID: 381889367046807523}
   - component: {fileID: 1494214853374846193}
   - component: {fileID: 45051321149585808}
   - component: {fileID: 7613213827869278922}
@@ -128,6 +129,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyNPC: {fileID: 5963179062096080518}
+--- !u!114 &381889367046807523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5963179062096080518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 049369721236bd545a5bf91ec6e4dd82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fsm: 0
+  _animator: {fileID: 0}
+  _rigidbody: {fileID: 0}
+  _agent: {fileID: 3327129161783146773, guid: 50ca7093baca4864bbfe2377432d11a9, type: 3}
+  _state: 0
+  _movementDirection: {x: 0, y: 0}
+  _movementSpeed: 0
 --- !u!212 &1494214853374846193
 SpriteRenderer:
   m_ObjectHideFlags: 0

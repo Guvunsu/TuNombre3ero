@@ -10,7 +10,7 @@ using static UnityEditor.VersionControl.Asset;
 public class FSM : MonoBehaviour
 {
     public agentFSM fsm;
-    public Transform playerAgent;
+    //public Transform playerAgent;
     #region References
 
     [SerializeField, HideInInspector] protected Animator _animator;
@@ -145,18 +145,18 @@ public class FSM : MonoBehaviour
     public void Idle()
     {
         animator.SetBool("STOP", true);
-        animator.SetBool("MOVING_UP", false);
-        animator.SetBool("MOVING_DOWN", false);
-        animator.SetBool("MOVING_LEFT", false);
-        animator.SetBool("MOVING_RIGHT", false);
+        animator.SetBool("MOVE_UP", false);
+        animator.SetBool("MOVE_DOWN", false);
+        animator.SetBool("MOVE_LEFT", false);
+        animator.SetBool("MOVE_RIGHT", false);
     }
     public void Move()
     {
-        animator.SetBool("STOP", false);
-        animator.SetBool("MOVING_UP", fsm == agentFSM.MOVING_UP);
-        animator.SetBool("MOVING_DOWN", fsm == agentFSM.MOVING_DOWN);
-        animator.SetBool("MOVING_LEFT", fsm == agentFSM.MOVING_LEFT);
-        animator.SetBool("MOVING_RIGHT", fsm == agentFSM.MOVING_RIGHT);
+        //animator.SetBool("STOP", false);
+        animator.SetBool("MOVe_UP", fsm == agentFSM.MOVING_UP);
+        animator.SetBool("MOVE_DOWN", fsm == agentFSM.MOVING_DOWN);
+        animator.SetBool("MOVE_LEFT", fsm == agentFSM.MOVING_LEFT);
+        animator.SetBool("MOVE_RIGHT", fsm == agentFSM.MOVING_RIGHT);
 
         // Muevoel mono en la dirección que quiero
         Vector3 direction = Vector3.zero;
@@ -179,6 +179,7 @@ public class FSM : MonoBehaviour
     public void Sprint()
     {
         animator.SetBool("STOP", false);
+        //animator.SetBool("STOP",fsm);
         animator.SetBool("MOVING_UP", fsm == agentFSM.SPRINT_UP);
         animator.SetBool("MOVING_DOWN", fsm == agentFSM.SPRINT_DOWN);
         animator.SetBool("MOVING_LEFT", fsm == agentFSM.SPRINT_LEFT);
