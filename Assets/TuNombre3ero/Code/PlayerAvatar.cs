@@ -2,11 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using static FSM;
 
-namespace SotomaYorch.DungeonCrawler {
+namespace SotomaYorch.DungeonCrawler
+{
     #region Enums
 
-    public enum PlayerIndexes {
+    public enum PlayerIndexes
+    {
         //PlayerInput starts the first index (of player) with 0
         ONE = 0,
         TWO = 1,
@@ -21,7 +24,8 @@ namespace SotomaYorch.DungeonCrawler {
 
     #endregion
 
-    public class PlayersAvatar : Agent {
+    public class PlayersAvatar : Agent
+    {
         #region Knobs
 
         public PlayerIndexes playerIndex;
@@ -42,10 +46,12 @@ namespace SotomaYorch.DungeonCrawler {
 
         #region LocalMethods
 
-        public override void InitializeAgent() {
+        public override void InitializeAgent()
+        {
             base.InitializeAgent();
             _movementInputVector = Vector2.zero;
-            if (_hitBox == null) {
+            if (_hitBox == null)
+            {
                 _hitBox = transform.GetChild(0).gameObject.GetComponent<HitBox>();
             }
         }
@@ -54,17 +60,20 @@ namespace SotomaYorch.DungeonCrawler {
 
         #region UnityMethods
 
-        private void OnDrawGizmos() {
+        private void OnDrawGizmos()
+        {
 #if UNITY_EDITOR
             InitializeAgent();
 #endif
         }
 
-        void Update() {
+        void Update()
+        {
 
         }
 
-        private void FixedUpdate() {
+        private void FixedUpdate()
+        {
             _rigidbody.velocity = _movementInputVector;
         }
 
@@ -72,38 +81,47 @@ namespace SotomaYorch.DungeonCrawler {
 
         #region PublicMethods
 
-        public void ActivateHitBox() {
+        public void ActivateHitBox()
+        {
             _hitBox.ActivateHitBox();
         }
 
-        public void OnMOVE(InputAction.CallbackContext value) {
-            if (value.performed) {
+        public void OnMOVE(InputAction.CallbackContext value)
+        {
+            if (value.performed)
+            {
                 _movementInputVector = value.ReadValue<Vector2>();
                 _fsm.SetMovementDirection = _movementInputVector;
                 _fsm.SetMovementSpeed = 3.0f;
                 CalculateStateMechanicDirection();
                 _fsm.StateMechanic(_movementStateMechanic);
-            } else if (value.canceled) {
+            }
+            else if (value.canceled)
+            {
                 _movementInputVector = Vector2.zero;
                 _fsm.SetMovementDirection = Vector2.zero;
                 _fsm.SetMovementSpeed = 0.0f;
-                _fsm.StateMechanic(StateMechanics.STOP);
+                _fsm.StateMechanic(agentEnemy.STOP);
             }
         }
 
-        public void OnATTACK(InputAction.CallbackContext value) {
-            _fsm.StateMechanic(StateMechanics.ATTACK);
+        public void OnATTACK(InputAction.CallbackContext value)
+        {
+            _fsm.StateMechanic(agentEnemy.ATTACK);
         }
 
-        public void OnSPRINT(InputAction.CallbackContext value) {
+        public void OnSPRINT(InputAction.CallbackContext value)
+        {
 
         }
 
-        public void OnPAUSE(InputAction.CallbackContext value) {
+        public void OnPAUSE(InputAction.CallbackContext value)
+        {
 
         }
 
-        public void OnINTERACT(InputAction.CallbackContext value) {
+        public void OnINTERACT(InputAction.CallbackContext value)
+        {
 
         }
 

@@ -1,15 +1,34 @@
+using SotomaYorch.DungeonCrawler;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEditor.PackageManager;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using static UnityEditor.VersionControl.Asset;
 
-public class FSM : MonoBehaviour {
+public class FSM : MonoBehaviour
+{
     public agentFSM fsm;
     public Transform playerAgent;
+    #region References
 
+    [SerializeField, HideInInspector] protected Animator _animator;
+    [SerializeField, HideInInspector] protected Rigidbody2D _rigidbody;
+    [SerializeField] protected Agent _agent;
+
+    #endregion
+
+    #region RuntimeVariables
+
+    [SerializeField] protected States _state;
+    [SerializeField] protected Vector2 _movementDirection;
+    [SerializeField] protected float _movementSpeed;
+
+    #endregion
     Animator animator;
-    public enum agentFSM {
+    public enum agentFSM
+    {
         //IDLE
         IDLE_DOWN,
         IDLE_UP,
@@ -38,7 +57,8 @@ public class FSM : MonoBehaviour {
         //dying
         DEATH
     }
-    public enum agentEnemy {
+    public enum agentEnemy
+    {
         //STOP
         STOP,
         //MOVE
@@ -50,17 +70,22 @@ public class FSM : MonoBehaviour {
         ATTACK,
         DIE //TODO: Complete the code to administate this new state
     }
-    void Start() {
+    void Start()
+    {
         animator = GetComponent<Animator>();
     }
-    void Update() {
+    void Update()
+    {
 
     }
-    private void OnDrawGizmos() {
+    private void OnDrawGizmos()
+    {
         initializedStatesAgent();
     }
-    public void initializedStatesAgent() {
-        switch (fsm) {
+    public void initializedStatesAgent()
+    {
+        switch (fsm)
+        {
 
             case agentFSM.IDLE_DOWN:
             case agentFSM.IDLE_UP:
@@ -102,14 +127,31 @@ public class FSM : MonoBehaviour {
                 break;
         }
     }
-    public void Idle() {
+    protected void InitializeFiniteStateMachine()
+    {
+        if (_agent == null)
+        {
+            _agent = GetComponent<Agent>();
+        }
+    }
+
+    protected void CleanAnimatorFlags()
+    {
+        foreach (agentEnemy stateMechanic in Enum.GetValues(typeof(agentEnemy)))
+        {
+            _animator.SetBool(stateMechanic.ToString(), false);
+        }
+    }
+    public void Idle()
+    {
         animator.SetBool("STOP", true);
         animator.SetBool("MOVING_UP", false);
         animator.SetBool("MOVING_DOWN", false);
         animator.SetBool("MOVING_LEFT", false);
         animator.SetBool("MOVING_RIGHT", false);
     }
-    public void Move() {
+    public void Move()
+    {
         animator.SetBool("STOP", false);
         animator.SetBool("MOVING_UP", fsm == agentFSM.MOVING_UP);
         animator.SetBool("MOVING_DOWN", fsm == agentFSM.MOVING_DOWN);
@@ -127,13 +169,15 @@ public class FSM : MonoBehaviour {
         transform.position += direction * Time.deltaTime * 3;// a ver si con 3 es suficiente, si no le aumento o resto
     }
 
-    public void Attack() {
+    public void Attack()
+    {
         animator.SetBool("STOP", true);
         //animator.SetBool("MOVING_UP",fsm == agentFSM.ATTACKING_UP);
         // PREGUNTAR SI ESTO ESTO ES FACTIBLE 
         //preguntar al profe como debo incluir el hitbox,chance solo la llamo por referencia script< >()
     }
-    public void Sprint() {
+    public void Sprint()
+    {
         animator.SetBool("STOP", false);
         animator.SetBool("MOVING_UP", fsm == agentFSM.SPRINT_UP);
         animator.SetBool("MOVING_DOWN", fsm == agentFSM.SPRINT_DOWN);
@@ -150,18 +194,21 @@ public class FSM : MonoBehaviour {
 
         transform.position += direction * Time.deltaTime * 6; //si le subo al move le saco el doble a este
     }
-    public void Carry() {
+    public void Carry()
+    {
         animator.SetBool("Stop", true);
         //poner logica de cargar el objeto igual con una condicional if e input 
         // pregunta si se puede usar el system input para esto 
     }
-    public void Death() {
+    public void Death()
+    {
         animator.SetBool("Stop", true);
         // activar el panel de muerte 
         //  SceneManager.SetActiveScene("PanelPausa");
         this.enabled = false; // Detiene el script.
     }
-    private void ResetAnimatorParameters() {
+    private void ResetAnimatorParameters()
+    {
         //ME AYUDA PARA BORRAR LAS ANIMACIONES DESPUES D EUNA EJECUCION 
         //ASI NO HAY PROBLEMAS DE QUE LA WEA QUIERA MOSTRARME MAS DE 2 ANIMACIONES CUANDO EL USUARIO
         // ESTE USANDO DIFERENTES INPUTS QUE REQUIERA CADA UNA, 1 ANIMACION
@@ -171,7 +218,8 @@ public class FSM : MonoBehaviour {
         animator.SetBool("Move_Left", false);
         animator.SetBool("Move_Right", false);
     }
-    public void ChangeState(agentFSM newAgentState) {
+    public void ChangeState(agentFSM newAgentState)
+    {
         ResetAnimatorParameters();
         fsm = newAgentState; // Actualiza el estado actual de la FSM.
         initializedStatesAgent();
@@ -179,5 +227,40 @@ public class FSM : MonoBehaviour {
         //ponerlo en mi update
     }
 
+    #region PublicMethods
+
+    //Action
+    public void StateMechanic(agentEnemy value)
+    {
+        _animator.SetBool(value.ToString(), true);
+    }
+
+    public void SetState(States value)
+    {
+        CleanAnimatorFlags();
+        _state = value;
+        //TODO: Pending to develop
+        initializedStatesAgent();
+    }
+
+    #endregion
+    #region GettersSetters
+
+    public Vector2 GetMovementDirection
+    {
+        get { return _movementDirection; }
+    }
+
+    public Vector2 SetMovementDirection
+    {
+        set { _movementDirection = value; }
+    }
+
+    public float SetMovementSpeed
+    {
+        set { _movementSpeed = value; }
+    }
+
+    #endregion
 }
 

@@ -1,13 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 using static FSM;
 
-namespace SotomaYorch.DungeonCrawler {
+namespace SotomaYorch.DungeonCrawler
+{
     #region Enums
 
 
@@ -20,7 +17,8 @@ namespace SotomaYorch.DungeonCrawler {
 
     //Agent cannot operate without the Rigidbody2D
     [RequireComponent(typeof(Rigidbody2D))]
-    public class Agent : MonoBehaviour {
+    public class Agent : MonoBehaviour
+    {
         //Configuration parameter of this script
         #region Knobs
 
@@ -40,7 +38,7 @@ namespace SotomaYorch.DungeonCrawler {
         #region RuntimeVariables
 
         protected Vector2 _movementDirection;
-        protected agentFSM _movementStateMechanic;
+        protected agentEnemy _movementStateMechanic;
         [SerializeField] protected Color _spriteRendererColor;
         protected bool _cooldown;
         protected float _cooldownCronometer;
@@ -50,29 +48,41 @@ namespace SotomaYorch.DungeonCrawler {
 
         #region LocalMethods
 
-        protected virtual void CalculateStateMechanicDirection() {
-            if (Vector2.Dot(_fsm.GetMovementDirection, Vector2.down) >= 0.5f) {
-                _movementStateMechanic = StateMechanics.MOVE_DOWN;
-            } else if (Vector2.Dot(_fsm.GetMovementDirection, Vector2.right) >= 0.5f) {
-                _movementStateMechanic = StateMechanics.MOVE_RIGHT;
-            } else if (Vector2.Dot(_fsm.GetMovementDirection, Vector2.up) >= 0.5f) {
-                _movementStateMechanic = StateMechanics.MOVE_UP;
-            } else {
-                _movementStateMechanic = StateMechanics.MOVE_LEFT;
+        protected virtual void CalculateStateMechanicDirection()
+        {
+            if (Vector2.Dot(_fsm.GetMovementDirection, Vector2.down) >= 0.5f)
+            {
+                _movementStateMechanic = agentEnemy.MOVE_DOWN;
+            }
+            else if (Vector2.Dot(_fsm.GetMovementDirection, Vector2.right) >= 0.5f)
+            {
+                _movementStateMechanic = agentEnemy.MOVE_RIGHT;
+            }
+            else if (Vector2.Dot(_fsm.GetMovementDirection, Vector2.up) >= 0.5f)
+            {
+                _movementStateMechanic = agentEnemy.MOVE_UP;
+            }
+            else
+            {
+                _movementStateMechanic = agentEnemy.MOVE_LEFT;
             }
         }
 
         //Invocation from the HurtBox of this same agent
-        protected virtual void DamageAgent() {
-            if (!_cooldown) {
+        protected virtual void DamageAgent()
+        {
+            if (!_cooldown)
+            {
                 _cooldown = true;
                 _cooldownCronometer = cooldownDamageTime;
                 _blinkDamgeCoroutine = StartCoroutine(DamageBlink());
             }
         }
 
-        protected IEnumerator DamageBlink() {
-            while (_cooldownCronometer > 0) {
+        protected IEnumerator DamageBlink()
+        {
+            while (_cooldownCronometer > 0)
+            {
                 _spriteRendererColor.a = 0.25f;
                 _spriteRenderer.color = _spriteRendererColor;
                 yield return new WaitForSeconds(0.25f);
@@ -95,18 +105,21 @@ namespace SotomaYorch.DungeonCrawler {
             InitializeAgent();
         }
 
-        private void Start() {
+        private void Start()
+        {
             //InitializeAgent();
         }
 
         //ranges from 24 to 200 FPS
         //(according to the computer)
-        void Update() {
+        void Update()
+        {
 
         }
 
         //private void PhysicsUpdate()
-        private void FixedUpdate() {
+        private void FixedUpdate()
+        {
             //when we update the rigid body, we do it
             //during the Physics thread update
             //which is the FixedUpdate()
@@ -119,11 +132,14 @@ namespace SotomaYorch.DungeonCrawler {
 
         #region PublicMethods
 
-        public virtual void InitializeAgent() {
-            if (_spriteRenderer == null) {
+        public virtual void InitializeAgent()
+        {
+            if (_spriteRenderer == null)
+            {
                 _spriteRenderer = GetComponent<SpriteRenderer>();
             }
-            if (_spriteRendererColor == null) {
+            if (_spriteRendererColor == null)
+            {
                 _spriteRendererColor = _spriteRenderer.color;
             }
             //With the RequireComponent we guarantee
@@ -137,7 +153,8 @@ namespace SotomaYorch.DungeonCrawler {
             */
         }
 
-        public void StateMechanic(StateMechanics value) {
+        public void StateMechanic(agentEnemy value)
+        {
             _fsm.StateMechanic(value);
         }
 
