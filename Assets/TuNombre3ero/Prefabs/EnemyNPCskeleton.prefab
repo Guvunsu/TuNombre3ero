@@ -86,8 +86,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8812822292634176881}
-  - component: {fileID: 1674994757254317829}
-  - component: {fileID: 381889367046807523}
+  - component: {fileID: 1645233099610621191}
+  - component: {fileID: 4390925559968994750}
   - component: {fileID: 1494214853374846193}
   - component: {fileID: 45051321149585808}
   - component: {fileID: 7613213827869278922}
@@ -116,7 +116,7 @@ Transform:
   - {fileID: 7585684323493238388}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1674994757254317829
+--- !u!114 &1645233099610621191
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -125,11 +125,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 5963179062096080518}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6fcdf9dc168e605448e5765ce8f47fec, type: 3}
+  m_Script: {fileID: 11500000, guid: f19585b5f2fcf6448807a09ec503afbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyNPC: {fileID: 5963179062096080518}
---- !u!114 &381889367046807523
+  maxHealthPoints: 3
+  _rigidbody: {fileID: 45051321149585808}
+  _fsm: {fileID: 4390925559968994750}
+  scriptBehaviours: {fileID: 11400000, guid: 35a780a15e68ef947a69b645c34ab9da, type: 2}
+--- !u!114 &4390925559968994750
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -138,13 +141,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 5963179062096080518}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 049369721236bd545a5bf91ec6e4dd82, type: 3}
+  m_Script: {fileID: 11500000, guid: d0bde01278646ef4d96054a83d7a46c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fsm: 0
-  _animator: {fileID: 0}
-  _rigidbody: {fileID: 0}
-  _agent: {fileID: 3327129161783146773, guid: 50ca7093baca4864bbfe2377432d11a9, type: 3}
+  _animator: {fileID: 5905022375789608391}
+  _rigidbody: {fileID: 45051321149585808}
   _state: 0
   _movementDirection: {x: 0, y: 0}
   _movementSpeed: 0
