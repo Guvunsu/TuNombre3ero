@@ -132,7 +132,7 @@ namespace SotomaYorch.DungeonCrawler {
             //InitializeState();
         }
         // ATTACKING
-        public void SetStatesAttacking(State direction) {
+        public void SetStatesAttacking() {
             SetState(_state);
             _movementDirection = Vector2.zero;
             StateMechanic(StateMechanics.STOP);

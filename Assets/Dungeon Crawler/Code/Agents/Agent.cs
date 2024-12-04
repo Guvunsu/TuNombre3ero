@@ -1,9 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
-namespace SotomaYorch.DungeonCrawler
-{
+namespace SotomaYorch.DungeonCrawler {
     #region Enums
 
 
@@ -16,8 +16,7 @@ namespace SotomaYorch.DungeonCrawler
 
     //Agent cannot operate without the Rigidbody2D
     [RequireComponent(typeof(Rigidbody2D))]
-    public class Agent : MonoBehaviour
-    {
+    public class Agent : MonoBehaviour {
         //Configuration parameter of this script
         #region Knobs
 
@@ -41,59 +40,50 @@ namespace SotomaYorch.DungeonCrawler
 
         #region LocalMethods
 
-        protected virtual void CalculateStateMechanicDirection()
-        {
-            if (Vector2.Dot(_fsm.GetMovementDirection, Vector2.down) >= 0.5f)
-            {
+        protected virtual void CalculateStateMechanicDirection() {
+            if (Vector2.Dot(_fsm.GetMovementDirection, Vector2.down) >= 0.5f) {
                 _movementStateMechanic = StateMechanics.MOVE_DOWN;
-            }
-            else if (Vector2.Dot(_fsm.GetMovementDirection, Vector2.right) >= 0.5f)
-            {
+            } else if (Vector2.Dot(_fsm.GetMovementDirection, Vector2.right) >= 0.5f) {
                 _movementStateMechanic = StateMechanics.MOVE_RIGHT;
-            }   
-            else if (Vector2.Dot(_fsm.GetMovementDirection, Vector2.up) >= 0.5f)
-            {
+            } else if (Vector2.Dot(_fsm.GetMovementDirection, Vector2.up) >= 0.5f) {
                 _movementStateMechanic = StateMechanics.MOVE_UP;
-            }
-            else
-            {
+            } else {
                 _movementStateMechanic = StateMechanics.MOVE_LEFT;
             }
         }
 
+        public void OnMove(InputValue value) {
+            _movementDirection = value.Get<Vector2>(); // Obtener la dirección del input
+        }
         #endregion
 
         #region UnityMethods
 
-        private void Start()
-        {
-            //InitializeAgent();
-        }
+        //private void Start() {
+        //    //InitializeAgent();
+        //}
 
         //ranges from 24 to 200 FPS
         //(according to the computer)
-        void Update()
-        {
-            
-        }
+        //void Update() {
+
+        //}
 
         //private void PhysicsUpdate()
-        private void FixedUpdate()
-        {
-            //when we update the rigid body, we do it
-            //during the Physics thread update
-            //which is the FixedUpdate()
-            //within the PhysX Engine (by NVidia) in Unity
-            //_rigidbody.velocity = Vector3.right;
-            //_rigidbody.AddForce(Vector2.right);
-        }
+        //private void FixedUpdate() {
+        //    //when we update the rigid body, we do it
+        //    //during the Physics thread update
+        //    //which is the FixedUpdate()
+        //    //within the PhysX Engine (by NVidia) in Unity
+        //    //_rigidbody.velocity = Vector3.right;
+        //    //_rigidbody.AddForce(Vector2.right);
+        //}
 
         #endregion
 
         #region PublicMethods
 
-        public virtual void InitializeAgent()
-        {
+        public virtual void InitializeAgent() {
             //With the RequireComponent we guarantee
             //this reference will be ALWAYS retreived
             /*

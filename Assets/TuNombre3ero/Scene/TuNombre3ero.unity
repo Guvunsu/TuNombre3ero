@@ -18129,6 +18129,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5502369024092613213, guid: 224fea052bc15f3498750ba27fe02720, type: 3}
   m_PrefabInstance: {fileID: 524334303}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &533337838 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 356886694692863271, guid: 117b4266e5c8bf041ba6196f14d15072, type: 3}
+  m_PrefabInstance: {fileID: 1230334686}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &554618745
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18217,7 +18222,7 @@ Transform:
   m_GameObject: {fileID: 561636035}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.859035, y: -0.4870429, z: 0.12609951}
+  m_LocalPosition: {x: 23.1, y: -0.48704243, z: 0.12609951}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -110765,8 +110770,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 770464675}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.859035, y: 0.4870429, z: -0.12609951}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -23.1, y: 0.48704243, z: -0.12609951}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -111491,7 +111496,7 @@ Transform:
   m_GameObject: {fileID: 907742013}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.859035, y: -0.4870429, z: -3.8739004}
+  m_LocalPosition: {x: 13.500001, y: 0.032957435, z: -3.8739004}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -111516,7 +111521,7 @@ MonoBehaviour:
   m_StreamingVersion: 20170927
   m_Priority: 100
   m_StandbyUpdate: 2
-  m_LookAt: {fileID: 0}
+  m_LookAt: {fileID: 1246092264}
   m_Follow: {fileID: 561636036}
   m_Lens:
     FieldOfView: 40
@@ -111624,7 +111629,7 @@ Transform:
   m_GameObject: {fileID: 917774432}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.859035, y: -0.4870429, z: -3.8739004}
+  m_LocalPosition: {x: 13.500001, y: 0.032957435, z: -3.8739004}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -113051,13 +113056,62 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 356886694692863271, guid: 117b4266e5c8bf041ba6196f14d15072, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1246092265}
   m_SourcePrefab: {fileID: 100100000, guid: 117b4266e5c8bf041ba6196f14d15072, type: 3}
 --- !u!4 &1246092264 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1042333807093295890, guid: 117b4266e5c8bf041ba6196f14d15072, type: 3}
   m_PrefabInstance: {fileID: 1230334686}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1246092265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 533337838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: ec77da50525762a438032c49d15631e0, type: 3}
+  m_NotificationBehavior: 0
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 5aebedf9-1012-4d89-9aad-09690ddba685
+    m_ActionName: Gameplay/MOVE[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d,/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: e5221564-68b8-47f3-9289-d277da3fb9d3
+    m_ActionName: Gameplay/ATTACK[/Keyboard/e]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 0cfba718-8694-4558-88b4-06200d08182b
+    m_ActionName: Gameplay/SPRINT[/Keyboard/space]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 1c6e989b-f263-484f-81d9-76e29abf6942
+    m_ActionName: Gameplay/PAUSE[/Keyboard/escape]
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: Gameplay
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
 --- !u!1001 &1256254628
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -122929,15 +122983,15 @@ MonoBehaviour:
   m_YDamping: 1
   m_ZDamping: 1
   m_TargetMovementOnly: 1
-  m_ScreenX: 0.5
-  m_ScreenY: 0.5
+  m_ScreenX: 1.04
+  m_ScreenY: 0.552
   m_CameraDistance: 4
   m_DeadZoneWidth: 0
   m_DeadZoneHeight: 0
   m_DeadZoneDepth: 0
   m_UnlimitedSoftZone: 0
   m_SoftZoneWidth: 2
-  m_SoftZoneHeight: 0.8
+  m_SoftZoneHeight: 1.528
   m_BiasX: 0
   m_BiasY: 0
   m_CenterOnActivate: 1
@@ -123610,7 +123664,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5282574601676544388, guid: f620b9f326e941a4fb919f1bd20355a5, type: 3}
     m_RemovedGameObjects:
     - {fileID: 520069776075826471, guid: f620b9f326e941a4fb919f1bd20355a5, type: 3}
     - {fileID: 2389692517946861483, guid: f620b9f326e941a4fb919f1bd20355a5, type: 3}
@@ -123627,10 +123682,10 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 770464676}
   - {fileID: 1649377727}
   - {fileID: 330007031}
   - {fileID: 1988230963}
-  - {fileID: 770464676}
   - {fileID: 2147379885}
   - {fileID: 947677334}
   - {fileID: 960164344}
